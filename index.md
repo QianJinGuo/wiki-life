@@ -6,8 +6,8 @@
 
 ## Stats
 
-- **Total pages**: 20
-- **Entities**: 12 | **Concepts**: 1 | **Comparisons**: 0 | **Sources**: 3
+- **Total pages**: 29
+- **Entities**: 12 | **Concepts**: 1 | **Comparisons**: 2 | **Sources**: 6 | **Cases**: 1
 - **Last updated**: 2025-06-09
 
 ---
@@ -71,6 +71,12 @@
 
 ## Recent Additions
 
+- 2025-06-09 | [[cases/career-transition-tech-to-product|职业转型案例]] | 工程师到产品经理的6个月路径
+- 2025-06-09 | [[comparisons/learning-methods-comparison|学习方法对比]] | 费曼 vs 间隔重复 vs 刻意练习
+- 2025-06-09 | [[comparisons/gtd-vs-timeblocking|GTD vs 时间块]] | 时间管理方法对比 (v×c=70)
+- 2025-06-09 | [[raw/articles/thinking-fast-and-slow-kahneman|Thinking, Fast and Slow]] | 卡尼曼双系统思维 (v×c=73)
+- 2025-06-09 | [[raw/articles/deep-work-cal-newport|Deep Work]] | 深度工作法则 (v×c=72)
+- 2025-06-09 | [[raw/articles/atomic-habits-james-clear|Atomic Habits]] | 原子习惯四定律 (v×c=74)
 - 2025-06-09 | [[templates/daily-plan-example|每日规划示例]] | 基于时间块的高效一天完整模板
 - 2025-06-09 | [[entities/creativity-system|创造力系统]] | 设计思维+CPS+头脑风暴+SCAMPER
 - 2025-06-09 | [[entities/health-optimization-system|健康优化系统]] | 睡眠优化+营养管理+运动系统
