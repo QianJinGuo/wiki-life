@@ -38,6 +38,13 @@ Initialized life improvement wiki with structure:
 
 **Total**: 16 pages | 9 entities | 1 concept | 3 queries | 3 sources
 
+**Batch 4 - 时间/健康/创造力**:
+15. entities/time-management-system.md | GTD+时间块+深度工作 (v×c=69)
+16. entities/health-optimization-system.md | 睡眠+营养+运动三支柱 (v×c=70)
+17. entities/creativity-system.md | 设计思维+CPS+头脑风暴 (v×c=71)
+
+**Final Total**: 19 pages | 12 entities | 1 concept | 3 queries | 3 sources
+
 ---
 
 ---

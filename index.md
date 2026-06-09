@@ -6,8 +6,8 @@
 
 ## Stats
 
-- **Total pages**: 16
-- **Entities**: 9 | **Concepts**: 1 | **Comparisons**: 0 | **Sources**: 3
+- **Total pages**: 19
+- **Entities**: 12 | **Concepts**: 1 | **Comparisons**: 0 | **Sources**: 3
 - **Last updated**: 2025-06-09
 
 ---
@@ -71,6 +71,9 @@
 
 ## Recent Additions
 
+- 2025-06-09 | [[entities/creativity-system|创造力系统]] | 设计思维+CPS+头脑风暴+SCAMPER
+- 2025-06-09 | [[entities/health-optimization-system|健康优化系统]] | 睡眠优化+营养管理+运动系统
+- 2025-06-09 | [[entities/time-management-system|时间管理系统]] | GTD+时间块+深度工作
 - 2025-06-09 | [[entities/personal-finance|个人财务管理系统]] | 四维度财务健康+MPT投资框架+50/30/20预算
 - 2025-06-09 | [[entities/cognitive-enhancement|认知提升系统]] | 费曼学习法+二阶思维+故意练习
 - 2025-06-09 | [[entities/relationship-maintenance|亲密关系维护系统]] | 爱的五种语言+NVC非暴力沟通+戈特曼法则
