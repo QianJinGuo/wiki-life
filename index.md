@@ -6,8 +6,8 @@
 
 ## Stats
 
-- **Total pages**: 52
-- **Entities**: 12 | **Concepts**: 1 | **Comparisons**: 2 | **Sources**: 6 | **Cases**: 3 | **Inbox**: 21
+- **Total pages**: 35
+- **Entities**: 12 | **Concepts**: 1 | **Comparisons**: 2 | **Sources**: 10 | **Cases**: 3
 - **Last updated**: 2025-06-09
 
 ---
@@ -71,10 +71,10 @@
 
 ## Recent Additions
 
+- 2025-06-09 | 4篇新Source入库 | Habit Tracker指南 + Mental Models + Saying No + OpenAI危机
 - 2025-06-09 | [[queries/life-dashboard|人生仪表盘]] | 汇总全局视图，12实体+场景导航+本周焦点
 - 2025-06-09 | [[cases/conflict-resolution-marriage-nvc|NVC冲突解决案例]] | 用非暴力沟通解决婚姻财务分歧
 - 2025-06-09 | [[cases/morning-routine-5am-habit|早起习惯案例]] | 从夜猫子到5点起床的90天转变
-- 2025-06-09 | 自动抓取 21 项RSS内容 | 待审核入库
 - 2025-06-09 | [[cases/career-transition-tech-to-product|职业转型案例]] | 工程师到产品经理的6个月路径
 - 2025-06-09 | [[templates/daily-plan-example|每日规划示例]] | 基于时间块的高效一天完整模板
 - 2025-06-09 | [[entities/creativity-system|创造力系统]] | 设计思维+CPS+头脑风暴+SCAMPER
