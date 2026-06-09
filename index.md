@@ -6,8 +6,8 @@
 
 ## Stats
 
-- **Total pages**: 0
-- **Entities**: 0 | **Concepts**: 0 | **Comparisons**: 0 | **Sources**: 0
+- **Total pages**: 6
+- **Entities**: 1 | **Concepts**: 1 | **Comparisons**: 0 | **Sources**: 3
 - **Last updated**: 2025-06-09
 
 ---
@@ -71,9 +71,11 @@
 
 ## Recent Additions
 
-<!-- Log format: - YYYY-MM-DD | [[path/slug|Title]] | brief description -->
-
-*No entries yet — start ingesting!*
+- 2025-06-09 | [[entities/decision-frameworks|决策框架: 从马斯克到黄仁勋]] | 综合三大决策框架的entity页
+- 2025-06-09 | [[concepts/first-principles-thinking|第一性原理思维]] | 从物理学到决策的方法论
+- 2025-06-09 | [[raw/articles/jensen-huang-decision-framework|黄仁勋的决策框架]] | 四象限风险计算模型
+- 2025-06-09 | [[raw/articles/tim-cook-operational-excellence-framework|库克的运营卓越框架]] | DCI决策模型与供应链管理
+- 2025-06-09 | [[raw/articles/musk-first-principles-thinking-framework|马斯克的第一性原理思维]] | 4步法与边界条件
 
 ---
 
