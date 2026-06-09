@@ -1,14 +1,33 @@
 ---
-title: "The Ultimate Habit Tracker Guide: Why and How to Track Your Habits"
+title: 'The Ultimate Habit Tracker Guide: Why and How to Track Your Habits'
 created: 2026-06-09
-updated: 2026-06-09
-type: inbox
-tags: [inbox, rss, pending-review]
-source_url: "https://jamesclear.com/habit-tracker"
+updated: '2026-06-09'
+type: source
+tags:
+- inbox
+- rss
+- pending-review
+source_url: https://jamesclear.com/habit-tracker
 ingested: 2026-06-09
-sha256: "8cbc045030fb0e83"
-provenance_state: "inbox"
+sha256: 8cbc045030fb0e83
+provenance_state: extracted
 ---
+
+# The Ultimate Habit Tracker Guide: Why and How to Track Your Habits
+
+**来源**: https://jamesclear.com/habit-tracker
+**归档日期**: 2026-06-09
+
+---
+
+## 要点摘录
+
+(待填充)
+
+---
+
+## 核心内容
+
 
 # The Ultimate Habit Tracker Guide: Why and How to Track Your Habits
 
@@ -40,3 +59,18 @@ This article includes an excerpt from Atomic Habits, my New York Times bestselli
 ---
 
 **SHA256**: `8cbc045030fb0e83`
+
+
+---
+
+## 评注
+
+**v×c = ?** (待评分)
+
+---
+
+## 关联页面
+
+- [[index|返回索引]]
+
+*归档自: 20260609_The Ultimate Habit Tracker Guide_ Why and How to Track Your Habits.md*

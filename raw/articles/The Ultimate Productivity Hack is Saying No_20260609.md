@@ -1,14 +1,33 @@
 ---
-title: "The Ultimate Productivity Hack is Saying No"
+title: The Ultimate Productivity Hack is Saying No
 created: 2026-06-09
-updated: 2026-06-09
-type: inbox
-tags: [inbox, rss, pending-review]
-source_url: "https://jamesclear.com/saying-no"
+updated: '2026-06-09'
+type: source
+tags:
+- inbox
+- rss
+- pending-review
+source_url: https://jamesclear.com/saying-no
 ingested: 2026-06-09
-sha256: "b0cf4d73559dc72b"
-provenance_state: "inbox"
+sha256: b0cf4d73559dc72b
+provenance_state: extracted
 ---
+
+# The Ultimate Productivity Hack is Saying No
+
+**来源**: https://jamesclear.com/saying-no
+**归档日期**: 2026-06-09
+
+---
+
+## 要点摘录
+
+(待填充)
+
+---
+
+## 核心内容
+
 
 # The Ultimate Productivity Hack is Saying No
 
@@ -40,3 +59,18 @@ The ultimate productivity hack is saying no. Not doing something will always be 
 ---
 
 **SHA256**: `b0cf4d73559dc72b`
+
+
+---
+
+## 评注
+
+**v×c = ?** (待评分)
+
+---
+
+## 关联页面
+
+- [[index|返回索引]]
+
+*归档自: 20260609_The Ultimate Productivity Hack is Saying No.md*

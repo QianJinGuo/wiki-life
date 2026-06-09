@@ -1,14 +1,33 @@
 ---
-title: "Mental Models That Change How You Think | Bill Gurley"
+title: Mental Models That Change How You Think | Bill Gurley
 created: 2026-06-09
-updated: 2026-06-09
-type: inbox
-tags: [inbox, rss, pending-review]
-source_url: "https://fs.blog/knowledge-project-podcast/bill-gurley/"
+updated: '2026-06-09'
+type: source
+tags:
+- inbox
+- rss
+- pending-review
+source_url: https://fs.blog/knowledge-project-podcast/bill-gurley/
 ingested: 2026-06-09
-sha256: "55f5083e805b1b3f"
-provenance_state: "inbox"
+sha256: 55f5083e805b1b3f
+provenance_state: extracted
 ---
+
+# Mental Models That Change How You Think | Bill Gurley
+
+**来源**: https://fs.blog/knowledge-project-podcast/bill-gurley/
+**归档日期**: 2026-06-09
+
+---
+
+## 要点摘录
+
+(待填充)
+
+---
+
+## 核心内容
+
 
 # Mental Models That Change How You Think | Bill Gurley
 
@@ -41,3 +60,18 @@ provenance_state: "inbox"
 ---
 
 **SHA256**: `55f5083e805b1b3f`
+
+
+---
+
+## 评注
+
+**v×c = ?** (待评分)
+
+---
+
+## 关联页面
+
+- [[index|返回索引]]
+
+*归档自: 20260609_Mental Models That Change How You Think _ Bill Gurley.md*

@@ -1,14 +1,33 @@
 ---
-title: "Greg Brockman: Inside the 72 Hours That Almost Killed OpenAI"
+title: 'Greg Brockman: Inside the 72 Hours That Almost Killed OpenAI'
 created: 2026-06-09
-updated: 2026-06-09
-type: inbox
-tags: [inbox, rss, pending-review]
-source_url: "https://fs.blog/knowledge-project-podcast/greg-brockman/"
+updated: '2026-06-09'
+type: source
+tags:
+- inbox
+- rss
+- pending-review
+source_url: https://fs.blog/knowledge-project-podcast/greg-brockman/
 ingested: 2026-06-09
-sha256: "0ff67e03a7c6f6d1"
-provenance_state: "inbox"
+sha256: 0ff67e03a7c6f6d1
+provenance_state: extracted
 ---
+
+# Greg Brockman: Inside the 72 Hours That Almost Killed OpenAI
+
+**来源**: https://fs.blog/knowledge-project-podcast/greg-brockman/
+**归档日期**: 2026-06-09
+
+---
+
+## 要点摘录
+
+(待填充)
+
+---
+
+## 核心内容
+
 
 # Greg Brockman: Inside the 72 Hours That Almost Killed OpenAI
 
@@ -41,3 +60,18 @@ provenance_state: "inbox"
 ---
 
 **SHA256**: `0ff67e03a7c6f6d1`
+
+
+---
+
+## 评注
+
+**v×c = ?** (待评分)
+
+---
+
+## 关联页面
+
+- [[index|返回索引]]
+
+*归档自: 20260609_Greg Brockman_ Inside the 72 Hours That Almost Killed OpenAI.md*
