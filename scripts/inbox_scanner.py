@@ -1,248 +1,197 @@
 #!/usr/bin/env python3
 """
-wiki-life inbox scanner - 自动扫描外部内容并导入inbox
-支持: RSS feeds, WeChat MP RSS, 本地新闻稿件目录监控
-
-Usage:
-    python inbox_scanner.py [--dry-run]
+wiki-life inbox 扫描脚本
+自动扫描 raw/inbox/ 目录，生成入库建议报告
 """
 
 import os
 import sys
 import yaml
-import json
 import hashlib
-import argparse
-from datetime import datetime
 from pathlib import Path
-from urllib.parse import urlparse
-import feedparser
-import requests
+from datetime import datetime
+from dataclasses import dataclass
+from typing import List, Optional
 
-# 配置
-WIKI_ROOT = Path.home() / "wiki-life"
-INBOX_DIRS = {
-    'rss': WIKI_ROOT / "raw/inbox/rss",
-    'wechat': WIKI_ROOT / "raw/inbox/wechat",
-    'newsletter': WIKI_ROOT / "raw/inbox/newsletter",
-}
-SOURCES_FILE = WIKI_ROOT / "SOURCES.md"
-LOG_FILE = WIKI_ROOT / "scripts/scan_log.json"
+@dataclass
+class InboxItem:
+    path: Path
+    title: str
+    source_type: str
+    tags: List[str]
+    quality_score: Optional[float] = None
+    suggestion: str = ""
 
-def load_sources():
-    """从SOURCES.md解析数据源配置"""
-    # 简化实现: 仅支持已配置的RSS feeds
-    # 完整实现需要解析YAML前置数据
-    rss_feeds = [
-        "https://zenhabits.net/feed/",
-        "https://jamesclear.com/feed",
-        "https://fs.blog/feed/",
-        "https://markmanson.net/feed",
-        "https://www.thesimpledollar.com/feed/",
-        "https://waitbutwhy.com/feed",
-    ]
-    return {'rss': rss_feeds}
-
-def sanitize_filename(title):
-    """将标题转换为安全的文件名"""
-    # 移除特殊字符，限制长度
-    safe = "".join(c if c.isalnum() or c in "-_ " else "_" for c in title)
-    return safe[:80].strip()
-
-def generate_sha256(url, title):
-    """生成文章SHA256 hash用于去重"""
-    content = f"{url}:{title}".encode('utf-8')
-    return hashlib.sha256(content).hexdigest()[:16]
-
-def check_duplicate(sha256_hash):
-    """检查是否已存在"""
-    # 检查raw/articles/下的文件
-    articles_dir = WIKI_ROOT / "raw/articles"
-    for article in articles_dir.glob("*.md"):
-        content = article.read_text(encoding='utf-8')
-        if sha256_hash in content:
-            return True
-    # 检查inbox中的文件
-    for inbox_dir in INBOX_DIRS.values():
-        for item in inbox_dir.glob("*.md"):
-            content = item.read_text(encoding='utf-8')
-            if sha256_hash in content:
-                return True
-    return False
-
-def fetch_rss_feed(url):
-    """获取RSS feed"""
-    try:
-        feed = feedparser.parse(url)
-        return feed.entries
-    except Exception as e:
-        print(f"Error fetching {url}: {e}")
-        return []
-
-def create_inbox_item(title, url, source_type, pub_date=None, summary=None):
-    """创建inbox文件"""
-    sha256 = generate_sha256(url, title)
-    filename = f"{datetime.now().strftime('%Y%m%d')}_{sanitize_filename(title)}.md"
-    
-    content = f"""---
-title: "{title}"
-created: {datetime.now().strftime('%Y-%m-%d')}
-updated: {datetime.now().strftime('%Y-%m-%d')}
-type: inbox
-tags: [inbox, {source_type}, pending-review]
-source_url: "{url}"
-ingested: {datetime.now().strftime('%Y-%m-%d')}
-sha256: "{sha256}"
-provenance_state: "inbox"
----
-
-# {title}
-
-**来源**: {url}
-**收集日期**: {datetime.now().strftime('%Y-%m-%d')}
-**状态**: 待审核
-
----
-
-## 摘要
-
-{summary or '暂无摘要'}
-
----
-
-## 内容
-
-待提取...
-
----
-
-## 审核清单
-
-- [ ] 是否为鸡汤/软文/营销号？
-- [ ] 是否有论证/框架/边界/实践/批判性？
-- [ ] v×c 是否 ≥ 45？
-- [ ] 是否需要归档到raw/articles/？
-
----
-
-**SHA256**: `{sha256}`
-"""
-    
-    return filename, content
-
-def scan_rss_feeds(dry_run=False):
-    """扫描RSS feeds"""
-    sources = load_sources()
-    new_items = []
-    
-    print(f"Scanning {len(sources['rss'])} RSS feeds...")
-    
-    for feed_url in sources['rss']:
-        print(f"  Checking: {feed_url}")
-        entries = fetch_rss_feed(feed_url)
+class InboxScanner:
+    def __init__(self, wiki_root: Path):
+        self.wiki_root = wiki_root
+        self.inbox_dir = wiki_root / "raw" / "inbox"
+        self.entities_dir = wiki_root / "entities"
+        self.concepts_dir = wiki_root / "concepts"
         
-        for entry in entries[:5]:  # 每个feed最多处理5篇新文章
-            title = entry.get('title', 'Untitled')
-            url = entry.get('link', '')
-            summary = entry.get('summary', '')[:500]  # 限制摘要长度
+    def scan(self) -> List[InboxItem]:
+        """扫描 inbox 目录，返回待处理项目列表"""
+        items = []
+        
+        if not self.inbox_dir.exists():
+            print(f"inbox 目录不存在: {self.inbox_dir}")
+            return items
             
-            sha256 = generate_sha256(url, title)
+        for file_path in self.inbox_dir.glob("*.md"):
+            item = self._parse_item(file_path)
+            if item:
+                items.append(item)
+                
+        return items
+    
+    def _parse_item(self, path: Path) -> Optional[InboxItem]:
+        """解析单个 inbox 文件"""
+        try:
+            content = path.read_text(encoding='utf-8')
             
-            if check_duplicate(sha256):
-                print(f"    ⏭️  SKIP (exists): {title[:60]}...")
-                continue
+            # 提取 YAML frontmatter
+            if content.startswith('---'):
+                parts = content.split('---', 2)
+                if len(parts) >= 3:
+                    frontmatter = yaml.safe_load(parts[1])
+                    title = frontmatter.get('title', path.stem)
+                    source_type = frontmatter.get('type', 'unknown')
+                    tags = frontmatter.get('tags', [])
+                    
+                    return InboxItem(
+                        path=path,
+                        title=title,
+                        source_type=source_type,
+                        tags=tags
+                    )
             
-            filename, content = create_inbox_item(
-                title=title,
-                url=url,
-                source_type='rss',
-                summary=summary
+            # 无 frontmatter，使用文件名
+            return InboxItem(
+                path=path,
+                title=path.stem,
+                source_type='unknown',
+                tags=[]
             )
             
-            if not dry_run:
-                inbox_path = INBOX_DIRS['rss'] / filename
-                inbox_path.write_text(content, encoding='utf-8')
-                new_items.append({
-                    'file': str(inbox_path),
-                    'title': title,
-                    'source': feed_url
-                })
-                print(f"    ✅ ADD: {title[:60]}...")
+        except Exception as e:
+            print(f"解析失败 {path}: {e}")
+            return None
+    
+    def _check_duplicate(self, item: InboxItem) -> bool:
+        """检查是否重复（简单版）"""
+        title_normalized = item.title.lower().replace(' ', '')
+        
+        # 检查现有实体
+        for entity_file in self.entities_dir.glob("*.md"):
+            if title_normalized in entity_file.stem.lower():
+                return True
+                
+        # 检查现有概念
+        for concept_file in self.concepts_dir.glob("*.md"):
+            if title_normalized in concept_file.stem.lower():
+                return True
+                
+        return False
+    
+    def _suggest_category(self, item: InboxItem) -> str:
+        """根据标签和标题推荐分类"""
+        title_lower = item.title.lower()
+        tags_lower = [t.lower() for t in item.tags]
+        
+        # 职业相关
+        if any(k in title_lower or k in tags_lower for k in ['career', 'job', '职业', '工作', 'salary', '薪资']):
+            return "entities/career-development (merge)"
+            
+        # 财务相关
+        if any(k in title_lower or k in tags_lower for k in ['finance', 'money', '财务', '投资', 'saving']):
+            return "entities/personal-finance (merge)"
+            
+        # 关系相关
+        if any(k in title_lower or k in tags_lower for k in ['relationship', 'communication', '关系', '沟通', 'marriage']):
+            return "entities/relationship-maintenance (merge)"
+            
+        # 习惯相关
+        if any(k in title_lower or k in tags_lower for k in ['habit', 'routine', '习惯', '举止']):
+            return "entities/habit-building-system (merge)"
+            
+        # 决策相关
+        if any(k in title_lower or k in tags_lower for k in ['decision', 'framework', '决策', '框架']):
+            return "entities/decision-frameworks (merge)"
+            
+        # 默认建议新建 entity
+        return "raw/articles/ (archive)"
+    
+    def generate_report(self, items: List[InboxItem]) -> str:
+        """生成扫描报告"""
+        lines = []
+        lines.append("# Inbox 扫描报告")
+        lines.append(f"\n生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        lines.append(f"发现项目: {len(items)}")
+        lines.append("\n---\n")
+        
+        if not items:
+            lines.append("✅ 没有待处理的 inbox 项目")
+            return "\n".join(lines)
+        
+        for i, item in enumerate(items, 1):
+            is_dup = self._check_duplicate(item)
+            suggestion = self._suggest_category(item)
+            
+            lines.append(f"## {i}. {item.title}")
+            lines.append(f"- **文件**: `{item.path.name}`")
+            lines.append(f"- **类型**: {item.source_type}")
+            lines.append(f"- **标签**: {', '.join(item.tags) if item.tags else '无'}")
+            lines.append(f"- **重复检查**: {'⚠️ 可能重复' if is_dup else '✅ 未发现重复'}")
+            lines.append(f"- **入库建议**: {suggestion}")
+            
+            if is_dup:
+                lines.append("- **操作**: 检查现有实体，如内容重叠度高则 merge，否则独立库")
             else:
-                print(f"    [DRY-RUN] Would add: {title[:60]}...")
-                new_items.append({
-                    'title': title,
-                    'source': feed_url
-                })
+                lines.append("- **操作**: 使用 `web-content-reviewer` 评估质量后入库")
+            
+            lines.append("")
+        
+        lines.append("---\n")
+        lines.append("## 入库流程")
+        lines.append("1. 使用 `skill_view('wiki-pipeline')` 查看完整流程")
+        lines.append("2. 使用 `web-content-reviewer` 评估文章质量 (v×c ≥ 45)")
+        lines.append("3. 符合标准则移动到 raw/articles/ 并更新前置 metadata")
+        lines.append("4. 更新相关 entity 或创建新 entity")
+        lines.append("5. 从 inbox 删除原文件")
+        
+        return "\n".join(lines)
     
-    return new_items
-
-def generate_report(new_items, dry_run=False):
-    """生成扫描报告"""
-    report = f"""# Inbox扫描报告
-
-**扫描时间**: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
-**新增项目**: {len(new_items)}
-**模式**: {'测试模式(不保存)' if dry_run else '正式模式'}
-
----
-
-## 新增内容
-
-"""
-    
-    for item in new_items:
-        report += f"- {item['title']}\n"
-        if 'file' in item:
-            report += f"  - 文件: `{item['file']}`\n"
-    
-    if not new_items:
-        report += "*未发现新内容*\n"
-    
-    report += f"""
-
----
-
-## 下一步
-
-1. 审核inbox中的内容
-2. 对高质量内容执行 `scripts/promote_to_article.py`
-3. 执行 `git add . && git commit -m "ingest batch N: description"`
-
-*自动生成于: inbox_scanner.py*
-"""
-    
-    return report
+    def run(self, output_file: Optional[Path] = None):
+        """运行完整扫描流程"""
+        print(f"🔍 扫描 inbox: {self.inbox_dir}")
+        
+        items = self.scan()
+        report = self.generate_report(items)
+        
+        # 保存报告
+        if output_file is None:
+            timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+            output_file = self.wiki_root / "scripts" / f"inbox_report_{timestamp}.md"
+        
+        output_file.write_text(report, encoding='utf-8')
+        print(f"📝 报告已保存: {output_file}")
+        
+        # 输出摘要
+        print(f"\n摘要:")
+        print(f"  总项目: {len(items)}")
+        dups = sum(1 for item in items if self._check_duplicate(item))
+        print(f"  可能重复: {dups}")
+        print(f"  新项目: {len(items) - dups}")
+        
+        return items
 
 def main():
-    parser = argparse.ArgumentParser(description='Scan external sources and populate inbox')
-    parser.add_argument('--dry-run', action='store_true', help='Preview changes without saving')
-    args = parser.parse_args()
+    # 确定 wiki 根目录
+    script_dir = Path(__file__).parent
+    wiki_root = script_dir.parent
     
-    # 确保目录存在
-    for dir_path in INBOX_DIRS.values():
-        dir_path.mkdir(parents=True, exist_ok=True)
-    
-    print("=" * 60)
-    print("wiki-life inbox scanner")
-    print("=" * 60)
-    
-    # 扫描RSS
-    new_items = scan_rss_feeds(dry_run=args.dry_run)
-    
-    # 生成报告
-    report = generate_report(new_items, dry_run=args.dry_run)
-    
-    # 保存报告
-    report_path = WIKI_ROOT / f"scripts/scan_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md"
-    if not args.dry_run and new_items:
-        report_path.write_text(report, encoding='utf-8')
-        print(f"\n报告已保存: {report_path}")
-    
-    print(f"\n批次完成: 发现 {len(new_items)} 项新内容")
-    print("=" * 60)
-    
-    return 0 if not args.dry_run or new_items else 1
+    scanner = InboxScanner(wiki_root)
+    scanner.run()
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()
