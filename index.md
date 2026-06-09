@@ -6,8 +6,8 @@
 
 ## Stats
 
-- **Total pages**: 11
-- **Entities**: 5 | **Concepts**: 1 | **Comparisons**: 0 | **Sources**: 3
+- **Total pages**: 16
+- **Entities**: 9 | **Concepts**: 1 | **Comparisons**: 0 | **Sources**: 3
 - **Last updated**: 2025-06-09
 
 ---
@@ -71,6 +71,10 @@
 
 ## Recent Additions
 
+- 2025-06-09 | [[entities/personal-finance|个人财务管理系统]] | 四维度财务健康+MPT投资框架+50/30/20预算
+- 2025-06-09 | [[entities/cognitive-enhancement|认知提升系统]] | 费曼学习法+二阶思维+故意练习
+- 2025-06-09 | [[entities/relationship-maintenance|亲密关系维护系统]] | 爱的五种语言+NVC非暴力沟通+戈特曼法则
+- 2025-06-09 | [[entities/communication-skills|沟通表达系统]] | SCQA金字塔+STAR-L面试+PREP即兴发言
 - 2025-06-09 | [[entities/mental-wellness|心理健康系统]] | CBT+ACT+MBSR实证方法汇总
 - 2025-06-09 | [[entities/career-development|职业发展系统]] | 胜任力分析+求职系统+转型策略
 - 2025-06-09 | [[entities/self-discipline|自律系统]] | 预承诺+环境设计+习惯自动化

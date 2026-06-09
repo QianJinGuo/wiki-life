@@ -30,6 +30,14 @@ Initialized life improvement wiki with structure:
 **Quality**: 所有内容通过五维验证(论证/框架/边界/实践/批判性)
 **Template**: 3个复用模板(article-note/concept-page/weekly-review)
 
+**Batch 3 - 表达/关系/认知/财务**:
+11. entities/communication-skills.md | SCQA+STAR-L+PREP (v×c=68)
+12. entities/relationship-maintenance.md | 爱的语言+NVC+戈特曼法则 (v×c=70)
+13. entities/cognitive-enhancement.md | 费曼法+二阶思维+故意练习 (v×c=69)
+14. entities/personal-finance.md | 四维度健康+MPT+储蓄框架 (v×c=67)
+
+**Total**: 16 pages | 9 entities | 1 concept | 3 queries | 3 sources
+
 ---
 
 ---
