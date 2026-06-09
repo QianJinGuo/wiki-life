@@ -123,6 +123,51 @@ provenance_state: "merged"
 
 ---
 
+## 关联实体
+
+**上游依赖**:
+- [[entities/decision-frameworks|决策框架]] — 思维方法与认知偏差
+- [[entities/mental-wellness|心理健康]] — 认知重构与情绪管理
+
+**下游应用**:
+- [[entities/career-development|职业发展]] — 技能学习与胜任力建设
+- [[entities/communication-skills|沟通表达]] — 费曼学习法也是沟通
+- [[entities/habit-building-system|习惯养成]] — 学习习惯的建立
+
+**平行协作**:
+- [[entities/self-discipline|自律系统]] — 延迟满足与二阶思维
+
+---
+
+## 应用场景
+
+**场景1: 准备技术考试/认证** → 配合 [[entities/career-development|职业发展]]
+- 费曼法: 用简单语言解释复杂概念
+- 间隔重复: 使用Anki定期复习
+- 刻意练习: 做模拟题而非被动阅读
+
+**场景2: 掌握新领域知识** → 配合 [[comparisons/learning-methods-comparison|学习方法对比]]
+- 费曼法建立概念理解
+- 间隔重复巩固记忆
+- 应用实践深化理解
+
+**场景3: 改进决策质量** → 配合 [[entities/decision-frameworks|决策框架]]
+- 二阶思维: 追问"后果的后果是什么？"
+- 系统2激活: 重大决策时慢下来
+- 认知偏差检查: 有没有错误定锚/可用性启发
+
+**场景4: 成为领域专家** → 配合 [[entities/habit-building-system|习惯养成]]
+- 刻意练习: 在适度困难区练习
+- 反馈循环: 寻找导师获取专业反馈
+- 习惯化学习: 每日固定时间投入
+
+**场景5: 教学/分享** → 配合 [[entities/communication-skills|沟通表达]]
+- 费曼法验证理解深度
+- 金字塔结构组织内容
+- SCQA引导听众关注
+
+---
+
 ## 边界条件
 
 **适合**:
