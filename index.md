@@ -6,7 +6,7 @@
 
 ## Stats
 
-- **Total pages**: 19
+- **Total pages**: 20
 - **Entities**: 12 | **Concepts**: 1 | **Comparisons**: 0 | **Sources**: 3
 - **Last updated**: 2025-06-09
 
@@ -71,6 +71,7 @@
 
 ## Recent Additions
 
+- 2025-06-09 | [[templates/daily-plan-example|每日规划示例]] | 基于时间块的高效一天完整模板
 - 2025-06-09 | [[entities/creativity-system|创造力系统]] | 设计思维+CPS+头脑风暴+SCAMPER
 - 2025-06-09 | [[entities/health-optimization-system|健康优化系统]] | 睡眠优化+营养管理+运动系统
 - 2025-06-09 | [[entities/time-management-system|时间管理系统]] | GTD+时间块+深度工作

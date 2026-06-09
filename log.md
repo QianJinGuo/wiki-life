@@ -45,6 +45,10 @@ Initialized life improvement wiki with structure:
 
 **Final Total**: 19 pages | 12 entities | 1 concept | 3 queries | 3 sources
 
----
++添加模板: templates/daily-plan-example.md | 基于时间块的高效一天完整模板
++
++**Final Total v1.1**: 20 pages | 12 entities | 1 concept | 4 templates | 3 sources
++
+ ---
 
 ---
