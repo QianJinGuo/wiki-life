@@ -1,0 +1,41 @@
+# Life Wiki WeChat MP Sources
+# 通过 wechat-mp-rss 服务抓取
+
+server:
+  endpoint: "http://localhost:8001"  # we-mp-rss 本地服务
+  sync_interval: "2h"
+
+accounts:
+  # 自律/习惯
+  - name: "习惯君"
+    mp_id: "habits_guru"
+    category: habits
+    
+  - name: "时间管理"
+    mp_id: "time_mgmt"
+    category: productivity
+    
+  # 心理健康
+  - name: "KnowYourself"
+    mp_id: "knowyourself2015"
+    category: mental-health
+    
+  - name: "宁远心理"
+    mp_id: "ningyuanpsy"
+    category: psychology
+    
+  # 职业发展
+  - name: "职场升值加"
+    mp_id: "career_plus"
+    category: career
+    
+  # 亲密关系
+  - name: "心理学与生活"
+    mp_id: "psy_life"
+    category: relationship
+    
+# 抓取规则
+fetch:
+  max_articles_per_fetch: 5   # 每次最多抓取篇数
+  lookback_days: 3            # 只抓取 3 天内新文章
+  skip_translated: true       # 跳过"转载"标记的文章

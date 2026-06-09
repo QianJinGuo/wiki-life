@@ -1,0 +1,35 @@
+# Life Wiki Newsletter Sources
+# 通过 newsletter-link-extractor 从 Gmail 提取
+
+sources:
+  # 中文个人成长类
+  - name: "整理事情"
+    sender: "@zhenglishiqing.com"
+    category: self-improvement
+    
+  - name: "知识工厂"
+    sender: "@mp.weixin.qq.com"
+    category: productivity
+    
+  - name: "效率军馆"
+    sender: "@toysdaily.com"
+    category: efficiency
+    
+  # 英文类
+  - name: "Tiny Buddha"
+    sender: "tinybuddha.com"
+    category: mental-health
+    
+  - name: "Mark Manson"
+    sender: "markmanson.net"
+    category: self-improvement
+    
+  - name: "The School of Life"
+    sender: "theschooloflife.com"
+    category: relationship
+
+# 提取规则
+extract:
+  max_links_per_email: 3      # 每封邮件最多提取链接数
+  min_link_age_hours: 24      # 忽略 24h 内的新链接（让广告降级）
+  prefer_original_url: true   # 优先获取原始链接（非短链）

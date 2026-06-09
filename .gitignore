@@ -1,0 +1,7 @@
+.DS_Store
+.cache/
+.obsidian/workspace*
+.obsidian/graph.json
+.venv/
+*.pyc
+__pycache__/

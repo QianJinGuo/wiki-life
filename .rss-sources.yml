@@ -1,0 +1,57 @@
+# Life Wiki RSS Sources
+# 用于 rss-to-wiki-pipeline 自动抓取
+
+sources:
+  # 自律/习惯养成
+  - name: "zenhabits"
+    url: "https://zenhabits.net/feed/"
+    category: self-discipline
+    lang: en
+    
+  - name: "jamesclear"
+    url: "https://jamesclear.com/feed"
+    category: habits
+    lang: en
+    
+  # 中文生产力
+  - name: " marskduan"
+    url: "https://www.marskduan.com/feed"
+    category: productivity
+    lang: zh
+    
+  - name: "nanzhu"
+    url: "https://www.nanzhu.net/feed"
+    category: self-improvement
+    lang: zh
+    
+  # 职业发展
+  - name: "36kr-career"
+    url: "https://36kr.com/feed-career"
+    category: career
+    lang: zh
+    
+  # 心理学/心理健康
+  - name: "psychology-today"
+    url: "https://www.psychologytoday.com/rss.xml"
+    category: mental-health
+    lang: en
+    
+  # 亲密关系
+  - name: "gottman-blog"
+    url: "https://www.gottman.com/blog/feed/"
+    category: relationship
+    lang: en
+    
+  # 认知科学
+  - name: "lesswrong"
+    url: "https://www.lesswrong.com/feed.xml"
+    category: cognition
+    lang: en
+    
+filter:
+  # 自动过滤规则
+  exclude_keywords:
+    - "广告"
+    - "促销"
+    - "限时"
+  min_content_length: 800  # 字符数
