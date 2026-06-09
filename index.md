@@ -6,8 +6,8 @@
 
 ## Stats
 
-- **Total pages**: 6
-- **Entities**: 1 | **Concepts**: 1 | **Comparisons**: 0 | **Sources**: 3
+- **Total pages**: 11
+- **Entities**: 5 | **Concepts**: 1 | **Comparisons**: 0 | **Sources**: 3
 - **Last updated**: 2025-06-09
 
 ---
@@ -71,6 +71,11 @@
 
 ## Recent Additions
 
+- 2025-06-09 | [[entities/mental-wellness|心理健康系统]] | CBT+ACT+MBSR实证方法汇总
+- 2025-06-09 | [[entities/career-development|职业发展系统]] | 胜任力分析+求职系统+转型策略
+- 2025-06-09 | [[entities/self-discipline|自律系统]] | 预承诺+环境设计+习惯自动化
+- 2025-06-09 | [[entities/habit-building-system|习惯养成系统]] | 习惯回路+环境设计三原则
+- 2025-06-09 | [[queries/actionable-methods|可执行方法汇总]] | 决策/复盘/习惯工具箱
 - 2025-06-09 | [[entities/decision-frameworks|决策框架: 从马斯克到黄仁勋]] | 综合三大决策框架的entity页
 - 2025-06-09 | [[concepts/first-principles-thinking|第一性原理思维]] | 从物理学到决策的方法论
 - 2025-06-09 | [[raw/articles/jensen-huang-decision-framework|黄仁勋的决策框架]] | 四象限风险计算模型
