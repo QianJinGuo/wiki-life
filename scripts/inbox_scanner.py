@@ -6,11 +6,11 @@ wiki-life inbox 扫描脚本
 
 import os
 import sys
-import yaml
+import re
 import hashlib
 from pathlib import Path
 from datetime import datetime
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import List, Optional
 
 @dataclass
@@ -18,7 +18,7 @@ class InboxItem:
     path: Path
     title: str
     source_type: str
-    tags: List[str]
+    tags: List[str] = field(default_factory=list)
     quality_score: Optional[float] = None
     suggestion: str = ""
 
@@ -44,38 +44,76 @@ class InboxScanner:
                 
         return items
     
+    def _parse_yaml_line(self, line: str) -> tuple:
+        """简单解析 YAML 行"""
+        if ':' not in line:
+            return None, None
+        
+        key, value = line.split(':', 1)
+        key = key.strip()
+        value = value.strip().strip('"\'')
+        
+        # 处理列表
+        if value.startswith('[') and value.endswith(']'):
+            items = re.findall(r'[\'"]?([^\'",\[\]]+)[\'"]?', value)
+            return key, [i.strip() for i in items if i.strip()]
+        
+        # 处理简单值
+        if value.lower() in ('true', 'yes'):
+            return key, True
+        if value.lower() in ('false', 'no'):
+            return key, False
+        
+        return key, value
+    
     def _parse_item(self, path: Path) -> Optional[InboxItem]:
         """解析单个 inbox 文件"""
         try:
             content = path.read_text(encoding='utf-8')
             
             # 提取 YAML frontmatter
+            title = path.stem
+            source_type = 'unknown'
+            tags = []
+            
             if content.startswith('---'):
                 parts = content.split('---', 2)
                 if len(parts) >= 3:
-                    frontmatter = yaml.safe_load(parts[1])
-                    title = frontmatter.get('title', path.stem)
-                    source_type = frontmatter.get('type', 'unknown')
-                    tags = frontmatter.get('tags', [])
+                    frontmatter_text = parts[1]
                     
-                    return InboxItem(
-                        path=path,
-                        title=title,
-                        source_type=source_type,
-                        tags=tags
-                    )
+                    for line in frontmatter_text.split('\n'):
+                        line = line.strip()
+                        if not line or line.startswith('#'):
+                            continue
+                            
+                        key, value = self._parse_yaml_line(line)
+                        
+                        if key == 'title':
+                            title = value if value else path.stem
+                        elif key == 'type':
+                            source_type = value if value else 'unknown'
+                        elif key == 'tags':
+                            if isinstance(value, list):
+                                tags = value
+                            elif isinstance(value, str):
+                                tags = [value]
             
-            # 无 frontmatter，使用文件名
+            return InboxItem(
+                path=path,
+                title=title,
+                source_type=source_type,
+                tags=tags
+            )
+            
+        except Exception as e:
+            print(f"解析失败 {path}: {e}")
+            # 返回基础项
             return InboxItem(
                 path=path,
                 title=path.stem,
                 source_type='unknown',
                 tags=[]
             )
-            
-        except Exception as e:
-            print(f"解析失败 {path}: {e}")
-            return None
     
     def _check_duplicate(self, item: InboxItem) -> bool:
         """检查是否重复（简单版）"""

@@ -38,7 +38,7 @@ tags: [dashboard, navigation, index, overview]
 | [[comparisons/job-hop-vs-stay|跳槽 vs 留守]] | 决策框架 |
 | [[concepts/compound-effect|复利效应]] | 长期职业资本积累 |
 
-**本月行动**: _（在月度复盘时更新）_
+**本月行动**: [[reviews/2025-06-review|2025年6月复盘]]
 
 ---
 
