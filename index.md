@@ -6,9 +6,9 @@
 
 ## Stats
 
-- **Total pages**: 35
-- **Entities**: 12 | **Concepts**: 1 | **Comparisons**: 2 | **Sources**: 10 | **Cases**: 3
-- **Last updated**: 2025-06-09
+- **Total pages**: 46
+- **Entities**: 12 | **Concepts**: 4 | **Comparisons**: 5 | **Cases**: 6 | **Queries**: 7 | **Sources**: 10 | **Reviews**: 2
+- **Last updated**: 2026-06-10
 
 ---
 
@@ -17,38 +17,38 @@
 ### [[entities/self-discipline|自律与习惯养成]]
 建立可持续的自我管理系统。
 
-- [[concepts/habit-loop|习惯回路]] — 提示→行动→奖励
-- [[concepts/delayed-gratification|延迟满足]] — 长期主义的神经基础
-- [[concepts/implementation-intention|执行意图]] — if-then 计划
-- [[comparisons/pomodoro-vs-timeblocking|番茄工作法 vs 时间块]]
+- 习惯回路 — 提示→行动→奖励
+- 延迟满足 — 长期主义的神经基础
+- 执行意图 — if-then 计划
+- [[comparisons/gtd-vs-timeblocking|番茄工作法 vs 时间块]]
 
 ### [[entities/career-development|职业发展]]
 求职、面试、职业规划的系统方法。
 
-- [[concepts/competency-model|胜任力模型]] — 岗位需求拆解
-- [[queries/job-search-toolkit|求职工具箱]] — 简历、面试、谈判清单
-- [[entities/side-income|副业探索]] — 从0到1的收入多元化
+- 胜任力模型 — 岗位需求拆解
+- 求职工具箱 — 简历、面试、谈判清单
+- 副业探索 — 从0到1的收入多元化
 
 ### [[entities/mental-wellness|心理健康与心态]]
 情绪管理、焦虑应对、心智韧性。
 
-- [[concepts/cognitive-distortion|认知扭曲]] — 识别思维陷阱
-- [[concepts/emotional-regulation|情绪调节]] — 从反应到回应
-- [[concepts/mindfulness|正念]] — 当下的注意力训练
+- 认知扭曲 — 识别思维陷阱
+- 情绪调节 — 从反应到回应
+- 正念 — 当下的注意力训练
 
 ### [[entities/relationship-maintenance|亲密关系维护]]
 夫妻沟通、冲突解决、长期关系经营。
 
-- [[concepts/nonviolent-communication|非暴力沟通]] — 观察→感受→需求→请求
-- [[concepts/love-languages|爱的五种语言]] — 理解彼此的需求表达方式
-- [[concepts/conflict-resolution|冲突解决框架]] — 从对抗到合作
+- 非暴力沟通 — 观察→感受→需求→请求
+- 爱的五种语言 — 理解彼此的需求表达方式
+- 冲突解决框架 — 从对抗到合作
 
 ### [[entities/cognitive-enhancement|认知提升]]
 学习方法、决策思维、元认知。
 
-- [[concepts/growth-mindset|成长型思维]] — 能力可塑性的信念
-- [[concepts/feynman-technique|费曼学习法]] — 以教验学
-- [[concepts/second-order-thinking|二阶思维]] — 考虑后果的后果
+- 成长型思维 — 能力可塑性的信念
+- 费曼学习法 — 以教验学
+- 二阶思维 — 考虑后果的后果
 
 ---
 
@@ -57,8 +57,12 @@
 ### By Type
 - [[queries/reading-list|📚 阅读清单]] — 待读、在读、已读
 - [[queries/actionable-methods|🛠️ 可执行方法汇总]] — 拿来即用的工具
-- [[queries/reflection-prompts|📝 反思模板]] — 周复盘、月度回顾
+- 反思模板 — 周复盘、月度回顾
 - [[queries/case-studies|💼 真实案例库]] — 他人的经验教训
+- [[queries/life-dashboard|🎯 Life Dashboard]] — 全局视图
+- [[queries/agent-engineer-interview-prep|🤖 Agent面试准备]]
+- [[queries/bytedance-agent-team-interview-strategy|字节面试策略]]
+- [[queries/week3-4-agent-framework-detailed-plan|Week 3-4 Agent框架计划]]
 
 ### By Tag
 - `#actionable` — 可直接实践的方法
@@ -71,12 +75,17 @@
 
 ## Recent Additions
 
+- 2026-06-10 | [[queries/agent-engineer-interview-prep|Agent面试准备指南]] | 完整学习计划
+- 2026-06-10 | [[queries/bytedance-agent-team-interview-strategy|字节面试策略]] | 豆包/Coze团队
+- 2026-06-10 | [[queries/week3-4-agent-framework-detailed-plan|Week 3-4 Agent框架计划]] | LangChain实战
+- 2026-06-10 | [[cases/financial-independence-5-year-plan|5年财务独立案例]] | FIRE计划
+- 2026-06-10 | [[cases/negotiation-30-percent-salary-increase|薪资谈判案例]] | 30%涨幅
+- 2026-06-10 | [[cases/relationship-repair-after-conflict|关系修复案例]] | 冲突后修复
 - 2025-06-09 | 4篇新Source入库 | Habit Tracker指南 + Mental Models + Saying No + OpenAI危机
 - 2025-06-09 | [[queries/life-dashboard|人生仪表盘]] | 汇总全局视图，12实体+场景导航+本周焦点
 - 2025-06-09 | [[cases/conflict-resolution-marriage-nvc|NVC冲突解决案例]] | 用非暴力沟通解决婚姻财务分歧
 - 2025-06-09 | [[cases/morning-routine-5am-habit|早起习惯案例]] | 从夜猫子到5点起床的90天转变
 - 2025-06-09 | [[cases/career-transition-tech-to-product|职业转型案例]] | 工程师到产品经理的6个月路径
-- 2025-06-09 | [[templates/daily-plan-example|每日规划示例]] | 基于时间块的高效一天完整模板
 - 2025-06-09 | [[entities/creativity-system|创造力系统]] | 设计思维+CPS+头脑风暴+SCAMPER
 - 2025-06-09 | [[entities/health-optimization-system|健康优化系统]] | 睡眠优化+营养管理+运动系统
 - 2025-06-09 | [[entities/time-management-system|时间管理系统]] | GTD+时间块+深度工作

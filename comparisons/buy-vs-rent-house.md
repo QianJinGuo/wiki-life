@@ -4,6 +4,8 @@ created: 2025-06-09
 updated: 2025-06-09
 type: comparison
 tags: [comparison, housing, finance, decision]
+confidence: 0.85
+provenance_state: "extracted"
 ---
 
 # 对比: 买房 vs 租房

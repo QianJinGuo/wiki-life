@@ -4,6 +4,8 @@ created: 2025-06-09
 updated: 2025-06-09
 type: comparison
 tags: [comparison, finance, saving, investing, allocation]
+confidence: 0.85
+provenance_state: "extracted"
 ---
 
 # 对比: 储蓄 vs 投资

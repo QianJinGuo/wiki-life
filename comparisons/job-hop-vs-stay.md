@@ -4,6 +4,8 @@ created: 2025-06-09
 updated: 2025-06-09
 type: comparison
 tags: [comparison, career, decision, transition]
+confidence: 0.85
+provenance_state: "extracted"
 ---
 
 # 对比: 跳槽 vs 留守
