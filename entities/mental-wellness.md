@@ -18,7 +18,7 @@ provenance_state: "extracted"
 
 ### 轴一: 认知调整
 
-**认知扭曲的三种类型** ^[raw/articles/cbt-cognitive-distortions.md]:
+**认知扭曲的三种类型**:
 
 | 扭曲类型 | 表现 | 调整方法 |
 |---------|------|---------|
@@ -57,7 +57,7 @@ provenance_state: "extracted"
 
 ### 技术二: 普通化抽象忧虑
 
-**方法** (来自ACT) ^[raw/articles/act-acceptance-commitment.md]:
+**方法** (来自ACT):
 
 抽象忧虑: "如果失败了怎么办?"
 
@@ -114,7 +114,7 @@ provenance_state: "extracted"
 
 ## 进阶: 接受与承诺
 
-**核心概念** (来自ACT) ^[raw/articles/act-acceptance-commitment.md]:
+**核心概念** (来自ACT):
 
 1. **接受(Acceptance)**: 不是冲突，而是安静地容纳
 2. **觉察(Awareness)**: 观察想法而不被卷入
@@ -160,7 +160,6 @@ provenance_state: "extracted"
 
 ### 5. 接受不完美的执行
 完美主义是系统化成长的最大敌人。80% 的执行率持续一年，远胜于 100% 执行率持续一周。设计系统时预留弹性，允许偶尔的"失灵"而不崩溃。
-
 
 ## 关联实体
 
@@ -209,12 +208,12 @@ provenance_state: "extracted"
 
 ## 来源
 
-- ^[raw/articles/cbt-cognitive-distortions.md]
-- ^[raw/articles/act-acceptance-commitment.md]
-- ^[raw/articles/mbsr-kabat-zinn.md]
+-
+-
+-
 - Hayes, S. C. (2019). A Liberated Mind: How to Pivot Toward What Really Matters.
 - Kabat-Zinn, J. (1990). Full Catastrophe Living.
 
 ---
 
-← 返回 [[index.md|索引]] | 相关: [[queries/actionable-methods|可执行方法汇总]]
+← 返回 [[index|索引]] | 相关: [[queries/actionable-methods|可执行方法汇总]]

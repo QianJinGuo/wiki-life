@@ -3,6 +3,8 @@ title: "案例: 从夜猫子到5点起床的90天转变"
 created: 2025-06-09
 updated: 2025-06-09
 type: case
+confidence: 0.80
+provenance_state: "extracted"
 tags: [case, habits, morning-routine, sleep, discipline]
 ---
 

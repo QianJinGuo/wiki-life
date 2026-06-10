@@ -18,7 +18,7 @@ provenance_state: "merged"
 
 ### 维度一: 设计思维 (Design Thinking)
 
-IDEO和Stanford d.school的方法论 ^[raw/articles/ideo-design-thinking.md]:
+IDEO和Stanford d.school的方法论:
 
 **五阶段模型**:
 
@@ -38,7 +38,7 @@ IDEO和Stanford d.school的方法论 ^[raw/articles/ideo-design-thinking.md]:
 
 ### 维度二: 创造性问题解决 (CPS)
 
-Osborn-Parnes模型 ^[raw/articles/osborn-creative-problem-solving.md]:
+Osborn-Parnes模型:
 
 **六步流程**:
 1. **目标寻找** (Mess Finding): 识别挑战领域
@@ -56,7 +56,7 @@ Osborn-Parnes模型 ^[raw/articles/osborn-creative-problem-solving.md]:
 
 ### 维度三: 个体创造力习惯
 
-Csikszentmihalyi的心流研究 ^[raw/articles/csikszentmihalyi-flow-creativity.md]:
+Csikszentmihalyi的心流研究:
 
 **创造力培养的日常习惯**:
 
@@ -74,7 +74,7 @@ Csikszentmihalyi的心流研究 ^[raw/articles/csikszentmihalyi-flow-creativity.
 
 ### 经典头脑风暴规则
 
-Osborn的4原则 ^[raw/articles/osborn-brainstorming-rules.md]:
+Osborn的4原则:
 
 1. **延迟评判**: 想法生成阶段不批评
 2. **追求数量**: 越多越好，增加好想法概率
@@ -234,17 +234,16 @@ Osborn的4原则 ^[raw/articles/osborn-brainstorming-rules.md]:
 ### 5. 接受不完美的执行
 完美主义是系统化成长的最大敌人。80% 的执行率持续一年，远胜于 100% 执行率持续一周。设计系统时预留弹性，允许偶尔的"失灵"而不崩溃。
 
-
 ## 来源
 
-- ^[raw/articles/ideo-design-thinking.md]
-- ^[raw/articles/osborn-creative-problem-solving.md]
-- ^[raw/articles/csikszentmihalyi-flow-creativity.md]
-- ^[raw/articles/osborn-brainstorming-rules.md]
+-
+-
+-
+-
 - Brown, T. (2009). Change by Design: How Design Thinking Transforms Organizations.
 - Csikszentmihalyi, M. (1996). Creativity: Flow and the Psychology of Discovery and Invention.
 - De Bono, E. (1985). Six Thinking Hats.
 
 ---
 
-← 返回 [[index.md|索引]] | 相关: [[entities/cognitive-enhancement|认知提升系统]]
+← 返回 [[index|索引]] | 相关: [[entities/cognitive-enhancement|认知提升系统]]

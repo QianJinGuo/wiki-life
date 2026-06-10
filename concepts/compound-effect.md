@@ -201,4 +201,4 @@ result = compound_effect(1, 0.01, 365)  # ≈ 37.78倍
 
 **v×c = 74** (value=8 × confidence=0.92)
 
-← 返回 [[index.md|索引]] | 相关: [[entities/habit-building-system|习惯养成]]
+← 返回 [[index|索引]] | 相关: [[entities/habit-building-system|习惯养成]]

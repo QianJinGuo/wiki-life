@@ -284,4 +284,4 @@ provenance_state: "extracted"
 
 **v×c = 70** (value=8 × confidence=0.88)
 
-← 返回 [[index.md|索引]] | 相关: [[entities/career-development|职业发展]]
+← 返回 [[index|索引]] | 相关: [[entities/career-development|职业发展]]

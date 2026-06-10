@@ -28,7 +28,7 @@ provenance_state: "merged"
 
 ### 环境设计三原则
 
-来自选择架构理论 ^[raw/articles/nudge-thaler-sunstein.md]:
+来自选择架构理论:
 
 | 原则 | 操作 | 例子 |
 |------|------|------|
@@ -144,7 +144,6 @@ James Clear的核心观点: 目标不是跑马拉松，而是成为"跑步的人
 ### 5. 接受不完美的执行
 完美主义是系统化成长的最大敌人。80% 的执行率持续一年，远胜于 100% 执行率持续一周。设计系统时预留弹性，允许偶尔的"失灵"而不崩溃。
 
-
 ## 关联实体
 
 **上游依赖**:
@@ -184,11 +183,11 @@ James Clear的核心观点: 目标不是跑马拉松，而是成为"跑步的人
 ## 来源
 
 - ^[raw/articles/atomic-habits-james-clear.md]
-- ^[raw/articles/tiny-habits-bj-fogg.md]
-- ^[raw/articles/nudge-thaler-sunstein.md]
+-
+-
 - Clear, J. (2018). Atomic Habits. Penguin Random House.
 - Wood, W., & Rünger, D. (2016). Psychology of habit. Annual Review of Psychology.
 
 ---
 
-← 返回 [[index.md|索引]] | ↑ 相关: [[entities/self-discipline|自律系统]]
+← 返回 [[index|索引]] | ↑ 相关: [[entities/self-discipline|自律系统]]

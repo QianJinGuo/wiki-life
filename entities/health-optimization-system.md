@@ -18,7 +18,7 @@ provenance_state: "merged"
 
 ### 支柱一: 睡眠优化
 
-Walker的睡眠科学研究 ^[raw/articles/walker-why-we-sleep.md]:
+Walker的睡眠科学研究:
 
 **睡眠的核心功能**:
 - 记忆巩固 (REM睡眠)
@@ -53,7 +53,7 @@ Walker的睡眠科学研究 ^[raw/articles/walker-why-we-sleep.md]:
 | 蛋白质 | 10-35% | 肌肉修复、饱腹感 |
 | 脂肪 | 20-35% | 激素合成、脑功能 |
 
-**实用原则** ^[raw/articles/michael-pollan-food-rules.md]:
+**实用原则**:
 
 1. **吃食物，不要吃太多，主要吃植物** (Pollan的7字法则)
 2. **80%法则**: 吃到80%饱就停
@@ -67,7 +67,7 @@ Walker的睡眠科学研究 ^[raw/articles/walker-why-we-sleep.md]:
 
 ### 支柱三: 运动系统
 
-**运动类型的互补** ^[raw/articles/exercise-guidelines-acsm.md]:
+**运动类型的互补**:
 
 | 类型 | 频率 | 时长 | 主要收益 |
 |------|------|------|----------|
@@ -233,16 +233,15 @@ Walker的睡眠科学研究 ^[raw/articles/walker-why-we-sleep.md]:
 ### 5. 接受不完美的执行
 完美主义是系统化成长的最大敌人。80% 的执行率持续一年，远胜于 100% 执行率持续一周。设计系统时预留弹性，允许偶尔的"失灵"而不崩溃。
 
-
 ## 来源
 
-- ^[raw/articles/walker-why-we-sleep.md]
-- ^[raw/articles/michael-pollan-food-rules.md]
-- ^[raw/articles/exercise-guidelines-acsm.md]
+-
+-
+-
 - Walker, M. P. (2017). Why We Sleep: Unlocking the Power of Sleep and Dreams.
 - Pollan, M. (2008). In Defense of Food: An Eater's Manifesto.
 - ACSM's Guidelines for Exercise Testing and Prescription (11th ed.).
 
 ---
 
-← 返回 [[index.md|索引]] | 相关: [[entities/time-management-system|时间管理系统]]
+← 返回 [[index|索引]] | 相关: [[entities/time-management-system|时间管理系统]]

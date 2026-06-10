@@ -4,6 +4,8 @@ created: 2025-06-10
 updated: 2025-06-10
 type: query
 tags: [career, interview, agent, ai, preparation]
+confidence: 0.85
+provenance_state: "extracted"
 ---
 
 # 🤖 Agent 开发工程师面试准备指南

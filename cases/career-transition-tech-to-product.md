@@ -3,6 +3,8 @@ title: "案例: 从工程师到产品经理的6个月转型"
 created: 2025-06-09
 updated: 2025-06-09
 type: case
+confidence: 0.82
+provenance_state: "extracted"
 tags: [case, career, transition, product-management]
 ---
 

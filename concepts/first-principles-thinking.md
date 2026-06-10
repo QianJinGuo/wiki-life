@@ -58,8 +58,7 @@ provenance_state: "extracted"
 ## 来源
 
 - ^[raw/articles/musk-first-principles-thinking-framework.md]
-- ^[亚里斯多德大学物理系教材: Introduction to Physics Thinking]
 
 ---
 
-← 返回 [[index.md|索引]] | ↑ 相关: [[concepts/analogy-reasoning|类比推理]]
+← 返回 [[index|索引]]

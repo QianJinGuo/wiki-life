@@ -270,4 +270,4 @@ print(f"租房+投资总资产: {invest_gain/10000:.0f}万")
 
 **v×c = 70** (value=7 × confidence=0.9)
 
-← 返回 [[index.md|索引]] | 相关: [[entities/personal-finance|个人财务]]
+← 返回 [[index|索引]] | 相关: [[entities/personal-finance|个人财务]]

@@ -24,7 +24,7 @@ provenance_state: "merged"
 
 ## 原理详解
 
-### 费曼学习法 ^[raw/articles/feynman-technique-learning.md]
+### 费曼学习法
 
 **四步流程**:
 1. 选择概念
@@ -40,7 +40,7 @@ provenance_state: "merged"
 - 撰写技术文档
 - 教学/分享
 
-### 间隔重复 (Spaced Repetition) ^[raw/articles/forgetting-curve-ebbinghaus.md]
+### 间隔重复 (Spaced Repetition)
 
 **核心机制**: 在遗忘点即将到来时重复，最大化记忆效率。
 
@@ -57,7 +57,7 @@ provenance_state: "merged"
 - 考证复习
 - 专业术语
 
-### 故意练习 (Deliberate Practice) ^[raw/articles/ericsson-peak-performance.md]
+### 故意练习 (Deliberate Practice)
 
 **四要素**:
 1. 明确目标
@@ -205,4 +205,4 @@ provenance_state: "merged"
 
 **v×c = 69** (value=8 × confidence=0.86)
 
-← 返回 [[index.md|索引]] | 相关: [[entities/cognitive-enhancement|认知提升系统]]
+← 返回 [[index|索引]] | 相关: [[entities/cognitive-enhancement|认知提升系统]]

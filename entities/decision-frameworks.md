@@ -128,4 +128,4 @@ provenance_state: "merged"
 
 ---
 
-← 返回 [[index.md|索引]]
+← 返回 [[index|索引]]

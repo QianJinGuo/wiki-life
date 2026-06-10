@@ -26,7 +26,7 @@ provenance_state: "merged"
 
 ## 原理对比
 
-### GTD 五步法 ^[raw/articles/allen-getting-things-done.md]
+### GTD 五步法
 
 1. **捕捉**: 所有任务进入inbox
 2. **理清**: 判断可行性，确定下一步
@@ -36,7 +36,7 @@ provenance_state: "merged"
 
 **核心**: 让你的头脑从"记忆任务"解放出来，专注于思考。
 
-### 时间块四步法 ^[raw/articles/newport-time-block-planner.md]
+### 时间块四步法
 
 1. **规划块**: 每天开始前分配时间块
 2. **任务块**: 固定时长专注单一任务
@@ -148,4 +148,4 @@ provenance_state: "merged"
 
 **v×c = 70** (value=8 × confidence=0.88)
 
-← 返回 [[index.md|索引]] | 相关: [[entities/time-management-system|时间管理系统]]
+← 返回 [[index|索引]] | 相关: [[entities/time-management-system|时间管理系统]]

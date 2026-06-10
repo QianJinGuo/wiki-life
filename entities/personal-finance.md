@@ -29,7 +29,7 @@ provenance_state: "merged"
 
 ### 维度二: 债务管理
 
-**债务优先级** ^[raw/articles/dave-ramsey-debt-snowball.md]:
+**债务优先级**:
 
 | 优先级 | 债务类型 | 策略 |
 |---------|---------|--------|
@@ -62,7 +62,7 @@ provenance_state: "merged"
 
 ### 现代投资组合理论 (MPT)
 
-**核心概念** ^[raw/articles/markowitz-portfolio-theory.md]:
+**核心概念**:
 
 1. **风险与收益正相关**: 要获得更高收益，必须承受更高风险
 2. **分散化降低风险**: 通过资产配置降低非系统性风险
@@ -90,7 +90,7 @@ provenance_state: "merged"
 
 ### 指数投资法
 
-**核心信念** ^[raw/articles/bogleheads-investing-guide.md]:
+**核心信念**:
 
 - 市场难以超越，寻找市场平均收益
 - 最低成本是最高确信
@@ -107,7 +107,7 @@ provenance_state: "merged"
 
 ### 预算模板: 50/30/20法则
 
-**收入分配** ^[raw/articles/50-30-20-budget-rule.md]:
+**收入分配**:
 
 | 类别 | 比例 | 内容 |
 |------|------|------|
@@ -198,16 +198,15 @@ provenance_state: "merged"
 ### 5. 接受不完美的执行
 完美主义是系统化成长的最大敌人。80% 的执行率持续一年，远胜于 100% 执行率持续一周。设计系统时预留弹性，允许偶尔的"失灵"而不崩溃。
 
-
 ## 来源
 
-- ^[raw/articles/dave-ramsey-debt-snowball.md]
-- ^[raw/articles/markowitz-portfolio-theory.md]
-- ^[raw/articles/bogleheads-investing-guide.md]
-- ^[raw/articles/50-30-20-budget-rule.md]
+-
+-
+-
+-
 - Malkiel, B. G. (2015). A Random Walk Down Wall Street.
 - Bogle, J. C. (2017). The Little Book of Common Sense Investing.
 
 ---
 
-← 返回 [[index.md|索引]] | 相关: [[entities/decision-frameworks|决策框架]]
+← 返回 [[index|索引]] | 相关: [[entities/decision-frameworks|决策框架]]

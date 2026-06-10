@@ -307,4 +307,4 @@ provenance_state: "extracted"
 
 **v×c = 74** (value=8 × confidence=0.9)
 
-← 返回 [[index.md|索引]] | 相关: [[entities/personal-finance|个人财务]]
+← 返回 [[index|索引]] | 相关: [[entities/personal-finance|个人财务]]

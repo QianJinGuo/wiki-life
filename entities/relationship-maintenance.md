@@ -16,7 +16,7 @@ provenance_state: "merged"
 
 ## 核心框架: 爱的五种语言
 
-Chapman 的研究发现，人们表达和接收爱的方式不同 ^[raw/articles/chapman-five-love-languages.md]:
+Chapman 的研究发现，人们表达和接收爱的方式不同:
 
 | 语言 | 表现方式 | 需求信号 |
 |------|---------|---------|
@@ -37,7 +37,7 @@ Chapman 的研究发现，人们表达和接收爱的方式不同 ^[raw/articles
 
 ## 非暴力沟通 (NVC)
 
-Rosenberg 的框架 ^[raw/articles/rosenberg-nonviolent-communication.md]:
+Rosenberg 的框架:
 
 ### 四要素模型
 
@@ -65,7 +65,7 @@ Rosenberg 的框架 ^[raw/articles/rosenberg-nonviolent-communication.md]:
 
 ## 冲突解决: 戈特曼法则
 
-Gottman 研究预测离婚的准确率超过94% ^[raw/articles/gottman-seven-principles.md]:
+Gottman 研究预测离婚的准确率超过94%:
 
 ### 四骑士 (Relationship Killers)
 
@@ -88,7 +88,7 @@ Gottman 研究预测离婚的准确率超过94% ^[raw/articles/gottman-seven-pri
 
 ## 依恋类型与关系健康
 
-Bowlby-Ainsworth 依恋理论在成人关系中的应用 ^[raw/articles/attachment-theory-adult-relationships.md]:
+Bowlby-Ainsworth 依恋理论在成人关系中的应用:
 
 | 类型 | 特征 | 对关系的影响 |
 |------|------|------------|
@@ -179,7 +179,6 @@ Bowlby-Ainsworth 依恋理论在成人关系中的应用 ^[raw/articles/attachme
 ### 5. 接受不完美的执行
 完美主义是系统化成长的最大敌人。80% 的执行率持续一年，远胜于 100% 执行率持续一周。设计系统时预留弹性，允许偶尔的"失灵"而不崩溃。
 
-
 ## 关联实体
 
 **上游依赖**:
@@ -222,13 +221,13 @@ Bowlby-Ainsworth 依恋理论在成人关系中的应用 ^[raw/articles/attachme
 
 ## 来源
 
-- ^[raw/articles/chapman-five-love-languages.md]
-- ^[raw/articles/rosenberg-nonviolent-communication.md]
-- ^[raw/articles/gottman-seven-principles.md]
-- ^[raw/articles/attachment-theory-adult-relationships.md]
+-
+-
+-
+-
 - Gottman, J. M., & Silver, N. (2015). The Seven Principles for Making Marriage Work.
 - Rosenberg, M. B. (2003). Nonviolent Communication: A Language of Life.
 
 ---
 
-← 返回 [[index.md|索引]] | 相关: [[entities/communication-skills|沟通表达系统]]
+← 返回 [[index|索引]] | 相关: [[entities/communication-skills|沟通表达系统]]

@@ -4,13 +4,13 @@ created: 2025-06-09
 updated: 2025-06-09
 type: query
 tags: [dashboard, navigation, index, overview]
+confidence: 0.95
+provenance_state: "extracted"
 ---
 
 # 🎯 Life Dashboard
 
 你的个人成长系统导航中心。快速定位、跟踪进度、发现连接。
-
----
 
 ## 📊 当前状态速览
 
@@ -23,8 +23,6 @@ tags: [dashboard, navigation, index, overview]
 │  📥 待处理:    4   │  🔗 连接: 360+                      │
 └─────────────────────────────────────────────────────────┘
 ```
-
----
 
 ## 🧭 核心领域导航
 
@@ -40,8 +38,6 @@ tags: [dashboard, navigation, index, overview]
 
 **本月行动**: [[reviews/2025-06-review|2025年6月复盘]]
 
----
-
 ### [[entities/personal-finance|个人财务]] 💰
 **核心问题**: 如何实现财务健康和自由？
 
@@ -53,8 +49,6 @@ tags: [dashboard, navigation, index, overview]
 | [[concepts/compound-effect|复利效应]] | 财富积累数学 |
 
 **本月行动**: _（在月度复盘时更新）_
-
----
 
 ### [[entities/relationship-maintenance|亲密关系]] ❤️
 **核心问题**: 如何建立深度、健康的连接？
@@ -68,8 +62,6 @@ tags: [dashboard, navigation, index, overview]
 
 **本月行动**: _（在月度复盘时更新）_
 
----
-
 ### [[entities/health-optimization-system|健康优化]] 🏃
 **核心问题**: 如何保持身体和心理的最佳状态？
 
@@ -80,8 +72,6 @@ tags: [dashboard, navigation, index, overview]
 
 **本月行动**: _（在月度复盘时更新）_
 
----
-
 ### [[entities/mental-wellness|心理健康]] 🧘
 **核心问题**: 如何管理情绪、保持内在稳定？
 
@@ -91,8 +81,6 @@ tags: [dashboard, navigation, index, overview]
 | [[entities/mental-wellness|心理系统]] | 焦虑/压力/意义感 |
 
 **本月行动**: _（在月度复盘时更新）_
-
----
 
 ## 🛠️ 实用工具箱
 
@@ -109,8 +97,6 @@ tags: [dashboard, navigation, index, overview]
 - [[comparisons/learning-methods-comparison|学习方法对比]] - 如何选择学习策略
 - [[entities/decision-frameworks|决策框架]] - 三大决策方法
 
----
-
 ## 📥 内容管道
 
 ### 待处理队列
@@ -123,8 +109,6 @@ raw/articles/       → 已归档待精读
 - _（由脚本自动更新）_
 
 **处理脚本**: `scripts/inbox_scanner.py`
-
----
 
 ## 🔍 快速检索
 
@@ -142,8 +126,6 @@ raw/articles/       → 已归档待精读
 - #decision - 决策相关
 - #template - 模板
 
----
-
 ## 🎯 本季度重点
 
 ### 活跃目标 (从 [[templates/monthly-review|月度复盘]] 同步)
@@ -154,8 +136,6 @@ raw/articles/       → 已归档待精读
 | 财务 | _ | _ | _ |
 | 关系 | _ | _ | _ |
 | 健康 | _ | _ | _ |
-
----
 
 ## 🔗 跨领域连接
 
@@ -183,19 +163,15 @@ raw/articles/       → 已归档待精读
 - 想改善关系 → [[templates/conflict-script|对话模板]] → [[cases/relationship-repair-after-conflict|修复案例]]
 - 想理清财务 → [[comparisons/buy-vs-rent-house|买房决策]] → [[cases/financial-independence-5-year-plan|财务规划]]
 
----
-
 ## 📝 维护日志
 
 | 日期 | 更新内容 |
 |------|----------|
 | 2025-06-09 | 创建 Life Dashboard，整合全部内容 |
 
----
-
 **使用提示**: 
 - 将此页面加入浏览器书签
 - 每周复盘时从这里开始
 - 发现新连接时更新此页面
 
-← 返回 [[index.md|总索引]] | 编辑此页以个性化你的仪表板
+← 返回 [[index|总索引]] | 编辑此页以个性化你的仪表板

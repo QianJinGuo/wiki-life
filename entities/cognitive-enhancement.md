@@ -16,7 +16,7 @@ provenance_state: "merged"
 
 ## 学习方法论: 费曼技术
 
-### 费曼学习法的四步 ^[raw/articles/feynman-technique-learning.md]
+### 费曼学习法的四步
 
 **核心原理**: 以教验学是最强的学习方式
 
@@ -34,7 +34,7 @@ provenance_state: "merged"
 
 ### 间隔重复 (Spaced Repetition)
 
-**遗忘曲线** ^[raw/articles/forgetting-curve-ebbinghaus.md]:
+**遗忘曲线**:
 
 **重复时间点**:
 - 第1次复习: 学习后1天
@@ -51,7 +51,7 @@ provenance_state: "merged"
 
 ### 二阶思维 (Second-Order Thinking)
 
-**核心观点**: 考虑后果的后果 ^[raw/articles/howard-marks-second-level-thinking.md]
+**核心观点**: 考虑后果的后果
 
 **问题链**:
 ```
@@ -90,7 +90,7 @@ provenance_state: "merged"
 
 ### 元学习模型
 
-**元认知的三个维度** ^[raw/articles/metacognition-flavell.md]:
+**元认知的三个维度**:
 
 1. **对任务的认知**: 这个任务要求什么？
 2. **对策略的认知**: 我有哪些学习方法？哪个最适合？
@@ -109,7 +109,7 @@ provenance_state: "merged"
 
 ### 故意练习 (Deliberate Practice)
 
-**四要素** ^[raw/articles/ericsson-peak-performance.md]:
+**四要素**:
 
 1. **明确目标**: 要改进的具体技能点
 2. **集中注意力**: 高度专注状态
@@ -216,17 +216,16 @@ provenance_state: "merged"
 ### 5. 接受不完美的执行
 完美主义是系统化成长的最大敌人。80% 的执行率持续一年，远胜于 100% 执行率持续一周。设计系统时预留弹性，允许偶尔的"失灵"而不崩溃。
 
-
 ## 来源
 
-- ^[raw/articles/feynman-technique-learning.md]
-- ^[raw/articles/forgetting-curve-ebbinghaus.md]
-- ^[raw/articles/howard-marks-second-level-thinking.md]
-- ^[raw/articles/metacognition-flavell.md]
-- ^[raw/articles/ericsson-peak-performance.md]
+-
+-
+-
+-
+-
 - Ericsson, K. A., & Pool, R. (2016). Peak: Secrets from the New Science of Expertise.
 - Kahneman, D. (2011). Thinking, Fast and Slow.
 
 ---
 
-← 返回 [[index.md|索引]] | 相关: [[entities/decision-frameworks|决策框架]]
+← 返回 [[index|索引]] | 相关: [[entities/decision-frameworks|决策框架]]

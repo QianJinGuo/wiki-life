@@ -16,7 +16,7 @@ provenance_state: "merged"
 
 ## Presentation 框架: SCQA + 金字塔
 
-### SCQA 开场模型 ^[raw/articles/minto-pyramid-principle.md]
+### SCQA 开场模型
 
 **结构**:
 - **S**ituation (情景): 大家都知道的背景
@@ -50,7 +50,7 @@ provenance_state: "merged"
 
 ### STAR-L 深化模型
 
-在基础STAR上增加Learning维度 ^[raw/articles/topgrading-interview-smart.md]:
+在基础STAR上增加Learning维度:
 
 | 元素 | 内容 | 时长分配 | 关键点 |
 |------|------|---------|---------|
@@ -144,7 +144,6 @@ provenance_state: "merged"
 ### 5. 接受不完美的执行
 完美主义是系统化成长的最大敌人。80% 的执行率持续一年，远胜于 100% 执行率持续一周。设计系统时预留弹性，允许偶尔的"失灵"而不崩溃。
 
-
 ## 关联实体
 
 **上游依赖**:
@@ -186,12 +185,12 @@ provenance_state: "merged"
 
 ## 来源
 
-- ^[raw/articles/minto-pyramid-principle.md]
-- ^[raw/articles/topgrading-interview-smart.md]
-- ^[raw/articles/cialdini-influence-psychology.md]
+-
+-
+-
 - Cialdini, R. B. (2006). Influence: The Psychology of Persuasion.
 - Minto, B. (2009). The Pyramid Principle: Logic in Writing and Thinking.
 
 ---
 
-← 返回 [[index.md|索引]] | 相关: [[entities/career-development|职业发展系统]]
+← 返回 [[index|索引]] | 相关: [[entities/career-development|职业发展系统]]

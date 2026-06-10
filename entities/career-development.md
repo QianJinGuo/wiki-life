@@ -18,7 +18,7 @@ provenance_state: "merged"
 
 ### 维度一: 胜任力 (Competency)
 
-**定义**: 岗位要求 vs 个人能力的匹配度 ^[raw/articles/barbara-negotiate-offer.md]
+**定义**: 岗位要求 vs 个人能力的匹配度
 
 **胜任力分析步骤**:
 1. 拆解JD关键要求(硬性技能+软性素质)
@@ -40,7 +40,7 @@ provenance_state: "merged"
 
 ### 维度三: 网络资本 (Network Capital)
 
-Granovetter 的 弱关系理论 ^[raw/articles/granovetter-strength-of-weak-ties.md]:
+Granovetter 的 弱关系理论:
 
 - **强关系**: 亲密朋友(信息重叠高)
 - **弱关系**: 业务认识/临时合作(信息桥梁价值高)
@@ -89,7 +89,7 @@ Granovetter 的 弱关系理论 ^[raw/articles/granovetter-strength-of-weak-ties
 
 **前提**: 在提供价值之后谈判，不是在接offer前。
 
-**三步法** ^[raw/articles/barbara-negotiate-offer.md]:
+**三步法**:
 1. **研究市场**: Glassdoor/脉脉/行业报告
 2. **确定区间**: 底线价(接受)、期望价(满意)、理想价(惊喜)
 3. **谈判策略**: 先谈非货币福利(更灵活)，最后谈工资
@@ -175,7 +175,6 @@ Granovetter 的 弱关系理论 ^[raw/articles/granovetter-strength-of-weak-ties
 ### 5. 接受不完美的执行
 完美主义是系统化成长的最大敌人。80% 的执行率持续一年，远胜于 100% 执行率持续一周。设计系统时预留弹性，允许偶尔的"失灵"而不崩溃。
 
-
 ## 关联实体
 
 **上游依赖**:
@@ -218,11 +217,11 @@ Granovetter 的 弱关系理论 ^[raw/articles/granovetter-strength-of-weak-ties
 
 ## 来源
 
-- ^[raw/articles/barbara-negotiate-offer.md]
-- ^[raw/articles/granovetter-strength-of-weak-ties.md]
+-
+-
 - Granovetter, M. S. (1973). The strength of weak ties. American Journal of Sociology.
 - Cialdini, R. B. (2016). Pre-suasion: A Revolutionary Way to Influence and Persuade.
 
 ---
 
-← 返回 [[index.md|索引]] | 相关: [[queries/actionable-methods|可执行方法汇总]]
+← 返回 [[index|索引]] | 相关: [[queries/actionable-methods|可执行方法汇总]]

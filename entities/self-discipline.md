@@ -16,7 +16,7 @@ provenance_state: "extracted"
 
 ## 第一性原理: 意志力是有限资源
 
-Baumeister的 ego depletion 研究表明: 意志力像肌肉一样会疲劳 ^[raw/articles/willpower-baumeister-tierney.md]。
+Baumeister的 ego depletion 研究表明: 意志力像肌肉一样会疲劳。
 
 **核心洞见**:
 - 决策越多，意志力消耗越快
@@ -145,7 +145,6 @@ Baumeister的 ego depletion 研究表明: 意志力像肌肉一样会疲劳 ^[ra
 ### 5. 接受不完美的执行
 完美主义是系统化成长的最大敌人。80% 的执行率持续一年，远胜于 100% 执行率持续一周。设计系统时预留弹性，允许偶尔的"失灵"而不崩溃。
 
-
 ## 关联实体
 
 **上游依赖**:
@@ -184,11 +183,11 @@ Baumeister的 ego depletion 研究表明: 意志力像肌肉一样会疲劳 ^[ra
 
 ## 来源
 
-- ^[raw/articles/willpower-baumeister-tierney.md]
+-
 - ^[raw/articles/deep-work-cal-newport.md]
 - Baumeister, R. F., & Tierney, J. (2011). Willpower: Rediscovering the Greatest Human Strength.
 - Newport, C. (2016). Deep Work: Rules for Focused Success in a Distracted World.
 
 ---
 
-← 返回 [[index.md|索引]] | 相关: [[entities/habit-building-system|习惯养成系统]]
+← 返回 [[index|索引]] | 相关: [[entities/habit-building-system|习惯养成系统]]

@@ -3,6 +3,8 @@ title: "案例: 用非暴力沟通解决婚姻中的财务分歧"
 created: 2025-06-09
 updated: 2025-06-09
 type: case
+confidence: 0.85
+provenance_state: "extracted"
 tags: [case, relationship, conflict-resolution, NVC, communication]
 ---
 

@@ -18,7 +18,7 @@ provenance_state: "extracted"
 
 ### 理论起源
 
-**Roy Baumeister** (1998) 提出 ^[raw/articles/willpower-baumeister-tierney.md]:
+**Roy Baumeister** (1998) 提出:
 
 **核心假设**: 
 - 自我控制依赖一种有限的"心理能量"
@@ -320,4 +320,4 @@ provenance_state: "extracted"
 
 *注: 置信度较低因为理论本身存在科学争议*
 
-← 返回 [[index.md|索引]] | 相关: [[entities/self-discipline|自律系统]]
+← 返回 [[index|索引]] | 相关: [[entities/self-discipline|自律系统]]

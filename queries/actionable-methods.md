@@ -4,6 +4,8 @@ created: 2025-06-09
 updated: 2025-06-09
 type: query
 tags: [meta, actionable, framework]
+confidence: 0.90
+provenance_state: "extracted"
 ---
 
 # 可执行方法汇总

@@ -4,6 +4,8 @@ created: 2025-06-10
 updated: 2025-06-10
 type: strategy
 tags: [interview, bytedance, agent, strategy, specific-company]
+confidence: 0.85
+provenance_state: "extracted"
 ---
 
 # 字节跳动（豆包/Coze团队）面试策略

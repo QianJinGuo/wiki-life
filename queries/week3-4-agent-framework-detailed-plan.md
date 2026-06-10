@@ -4,6 +4,8 @@ created: 2025-06-10
 updated: 2025-06-10
 type: guide
 tags: [learning, agent, langchain, week-plan, actionable]
+confidence: 0.85
+provenance_state: "extracted"
 ---
 
 # Week 3-4 详细学习计划：Agent框架实战

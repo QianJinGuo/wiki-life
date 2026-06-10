@@ -18,7 +18,7 @@ provenance_state: "merged"
 
 ### 层次一: 捕捉与组织 (GTD)
 
-Allen的Getting Things Done框架 ^[raw/articles/allen-getting-things-done.md]:
+Allen的Getting Things Done框架:
 
 **五步法**:
 1. **捕捉** (Capture): 所有任务进入inbox，大脑不记
@@ -34,7 +34,7 @@ Allen的Getting Things Done框架 ^[raw/articles/allen-getting-things-done.md]:
 
 ### 层次二: 时间分配 (时间块)
 
-Cal Newport的时间块方法 ^[raw/articles/newport-time-block-planner.md]:
+Cal Newport的时间块方法:
 
 **实施步骤**:
 1. **规划块**: 每天开始前分配时间块
@@ -56,7 +56,7 @@ Cal Newport的时间块方法 ^[raw/articles/newport-time-block-planner.md]:
 
 ### 层次三: 专注执行 (深度工作)
 
-Newport的深度工作理论 ^[raw/articles/newport-deep-work.md]:
+Newport的深度工作理论:
 
 **深度工作定义**: 无干扰的专注活动，创造新价值
 
@@ -194,7 +194,6 @@ Newport的深度工作理论 ^[raw/articles/newport-deep-work.md]:
 ### 5. 接受不完美的执行
 完美主义是系统化成长的最大敌人。80% 的执行率持续一年，远胜于 100% 执行率持续一周。设计系统时预留弹性，允许偶尔的"失灵"而不崩溃。
 
-
 ## 关联实体
 
 **上游依赖**:
@@ -259,12 +258,12 @@ Newport的深度工作理论 ^[raw/articles/newport-deep-work.md]:
 
 ## 来源
 
-- ^[raw/articles/allen-getting-things-done.md]
-- ^[raw/articles/newport-time-block-planner.md]
-- ^[raw/articles/newport-deep-work.md]
+-
+-
+-
 - Allen, D. (2015). Getting Things Done: The Art of Stress-Free Productivity.
 - Newport, C. (2016). Deep Work: Rules for Focused Success in a Distracted World.
 
 ---
 
-← 返回 [[index.md|索引]] | 相关: [[entities/self-discipline|自律系统]]
+← 返回 [[index|索引]] | 相关: [[entities/self-discipline|自律系统]]
