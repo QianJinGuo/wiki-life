@@ -109,6 +109,11 @@
 ## Workflow Quick Links
 
 - [[AGENTS.md]] — Agent operation guide
+- [[SCHEMA.md]] — Schema 契约（frontmatter / type / tag taxonomy）
+- [[QUALITY.md]] — 7 类红线内容鉴别标准
+- [[moc/wiki-life-master-map|Master MOC]] — 主题地图总入口
+- [[moc/personal-growth-reading-path|阅读路径 MOC]] — 4 层学习路径
 - [log.md](./log.md) — Operation history
 - `raw/inbox/` — Pending review queue
 - `templates/` — Reusable templates
+- `drafts/` — 对外输出草稿

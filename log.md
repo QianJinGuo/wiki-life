@@ -48,3 +48,15 @@ Initialized life improvement wiki with structure:
 添加模板: templates/daily-plan-example.md | 基于时间块的高效一天完整模板
 
 **Final Total v1.1**: 20 pages | 12 entities | 1 concept | 4 templates | 3 sources
+
+## [2026-06-11] structure | SCHEMA.md + moc/ + drafts/ 创建（9 步法 P0 对齐）
+
+按 hermes-wiki-9-step-auto-growing-knowledge-network 方法论补齐三件套：
+- **SCHEMA.md**：独立 schema 契约文件（之前 AGENTS.md/QUALITY.md 混合承担），明确 frontmatter / type / tag taxonomy / 评分门槛 v×c≥45 / 7 类红线
+- **moc/**：新建主题地图层
+  - `moc/personal-growth-reading-path.md`：12 entity 的 4 层阅读路径（地基→习惯→系统→高阶）
+  - `moc/wiki-life-master-map.md`：总入口 MOC（按"读什么/问什么"分流）
+- **drafts/**：新建对外输出层
+  - `drafts/README.md`：使用规范 + 5 个推荐选题（从 12 entity 反向蒸馏）
+
+**Total**: 12 entities | 4 concepts | 7 queries | 2 moc | 0 drafts (待写) | 3 raw
