@@ -102,6 +102,16 @@
 - [[drafts/four-critical-life-domains|健康、心理、财务、关系：人生四大可崩溃单元]] — 4 大存量系统的相互依赖
 - [[drafts/self-discipline-systems-design|自律的本质：设计系统，而非消耗意志力]] — 系统设计 vs 意志力消耗
 - [[drafts/time-management-three-layers|时间管理的三层次框架：从GTD到深度工作]] — 任务/项目/愿景三层
+
+## Comparisons (决策对照)
+
+5 篇对照表 + 判断段，覆盖职业/财务/学习/时间/居住 5 大常见决策：
+
+- [[comparisons/job-hop-vs-stay|跳槽 vs 留守]] — 职业发展的关键决策
+- [[comparisons/buy-vs-rent-house|买房 vs 租房]] — 居住决策的财务权衡
+- [[comparisons/saving-vs-investing|储蓄 vs 投资]] — 资产配置的核心选择
+- [[comparisons/learning-methods-comparison|学习方法对比：费曼 vs 间隔重复 vs 故意练习]] — 三大学习方法
+- [[comparisons/gtd-vs-timeblocking|GTD vs 时间块]] — 时间管理方法选择
 - 2025-06-09 | [[entities/career-development|职业发展系统]] | 胜任力分析+求职系统+转型策略
 - 2025-06-09 | [[entities/self-discipline|自律系统]] | 预承诺+环境设计+习惯自动化
 - 2025-06-09 | [[entities/habit-building-system|习惯养成系统]] | 习惯回路+环境设计三原则
