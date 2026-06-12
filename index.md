@@ -93,7 +93,16 @@
 - 2025-06-09 | [[entities/cognitive-enhancement|认知提升系统]] | 费曼学习法+二阶思维+故意练习
 - 2025-06-09 | [[entities/relationship-maintenance|亲密关系维护系统]] | 爱的五种语言+NVC非暴力沟通+戈特曼法则
 - 2025-06-09 | [[entities/communication-skills|沟通表达系统]] | SCQA金字塔+STAR-L面试+PREP即兴发言
-- 2025-06-09 | [[entities/mental-wellness|心理健康系统]] | CBT+ACT+MBSR实证方法汇总
+- 2025-06-09 | [[entities/mental-wellness|心理健康系统]] 
+
+## Drafts (对外输出草稿)
+
+3 篇从 wiki-life entity/concept 反向蒸馏的长文（2500-3500 中文字，100% 内部源引用）：
+
+- [[drafts/four-critical-life-domains|健康、心理、财务、关系：人生四大可崩溃单元]] — 4 大存量系统的相互依赖
+- [[drafts/self-discipline-systems-design|自律的本质：设计系统，而非消耗意志力]] — 系统设计 vs 意志力消耗
+- [[drafts/time-management-three-layers|时间管理的三层次框架：从GTD到深度工作]] — 任务/项目/愿景三层
+| CBT+ACT+MBSR实证方法汇总
 - 2025-06-09 | [[entities/career-development|职业发展系统]] | 胜任力分析+求职系统+转型策略
 - 2025-06-09 | [[entities/self-discipline|自律系统]] | 预承诺+环境设计+习惯自动化
 - 2025-06-09 | [[entities/habit-building-system|习惯养成系统]] | 习惯回路+环境设计三原则
