@@ -107,7 +107,13 @@
 
 - [[drafts/jensen-huang-risk-decision-framework|黄仁勋的决策框架]] — 风险值估 = 失败概率 × 失败成本
 - [[drafts/tim-cook-operational-excellence|库克的运营卓越]] — 把供应链控制当作产品命运
-- [[drafts/kahneman-dual-system-thinking|卡尼曼双系统]] — 识别何时该信直觉，何时该信分析
+- [[drafts/james-clear-saying-no-productivity|James Clear 说不的最高生产力]] — 拒绝的科学与艺术
+
+新增 4 篇名人与思想家 drafts（从 raw/articles 蒸馏）：
+
+- [[drafts/greg-brockman-72-hour-openai-crisis|Greg Brockman 的 72 小时危机]] — OpenAI 创立初期关键转折
+- [[drafts/bill-gurley-mental-models-complex-systems|Bill Gurley 的思维模型]] — 复杂系统视角的 5 大决策框架
+- [[drafts/james-clear-habit-tracker-framework|习惯追踪的科学与艺术]] — 4 大原理 + 4 种方法 + 30 天落地
 
 ## Comparisons (决策对照)
 
