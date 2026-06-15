@@ -103,6 +103,12 @@
 - [[drafts/self-discipline-systems-design|自律的本质：设计系统，而非消耗意志力]] — 系统设计 vs 意志力消耗
 - [[drafts/time-management-three-layers|时间管理的三层次框架：从GTD到深度工作]] — 任务/项目/愿景三层
 
+新增 3 篇名人框架 drafts（从 raw/articles 蒸馏）：
+
+- [[drafts/jensen-huang-risk-decision-framework|黄仁勋的决策框架]] — 风险值估 = 失败概率 × 失败成本
+- [[drafts/tim-cook-operational-excellence|库克的运营卓越]] — 把供应链控制当作产品命运
+- [[drafts/kahneman-dual-system-thinking|卡尼曼双系统]] — 识别何时该信直觉，何时该信分析
+
 ## Comparisons (决策对照)
 
 5 篇对照表 + 判断段，覆盖职业/财务/学习/时间/居住 5 大常见决策：
