@@ -147,3 +147,5 @@
 - `raw/inbox/` — Pending review queue
 - `templates/` — Reusable templates
 - `drafts/` — 对外输出草稿
+
+- [[entitys/easy-is-overrated|Easy is Overrated]] — # Easy is Overrated  **Source**: [https://calnewport.com/easy-is-overrated/](https://calnewport.com/easy-is-overrated/)...

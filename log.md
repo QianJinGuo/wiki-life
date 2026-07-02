@@ -60,3 +60,12 @@ Initialized life improvement wiki with structure:
   - `drafts/README.md`：使用规范 + 5 个推荐选题（从 12 entity 反向蒸馏）
 
 **Total**: 12 entities | 4 concepts | 7 queries | 2 moc | 0 drafts (待写) | 3 raw
+
+
+## [2026-07-02] ingest | easy-is-overrated
+
+自动入库 (wiki-life-inbox-scan + life-screener)
+- **标题**: Easy is Overrated
+- **评分**: v×c=8×8=64 | stars=4
+- **来源**: https://calnewport.com/easy-is-overrated/
+- **理由**: 命中论证、批判性、实践三维；引用《Organization Science》任务组数据，逻辑推理清晰，无鸡汤/营销红线
