@@ -37,7 +37,11 @@ class InboxScanner:
             print(f"inbox 目录不存在: {self.inbox_dir}")
             return items
             
-        for file_path in self.inbox_dir.glob("*.md"):
+        # 递归扫描所有子目录（rss/ newsletter/ wechat/），⚠️ 不能只 glob 顶层
+        for file_path in self.inbox_dir.rglob("*.md"):
+            # candidates.md 是 newsletter 的 URL 列表，不是文章，跳过
+            if file_path.name == "candidates.md":
+                continue
             item = self._parse_item(file_path)
             if item:
                 items.append(item)
