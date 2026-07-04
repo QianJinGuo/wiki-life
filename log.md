@@ -69,3 +69,12 @@ Initialized life improvement wiki with structure:
 - **评分**: v×c=8×8=64 | stars=4
 - **来源**: https://calnewport.com/easy-is-overrated/
 - **理由**: 命中论证、批判性、实践三维；引用《Organization Science》任务组数据，逻辑推理清晰，无鸡汤/营销红线
+
+
+## [2026-07-04] ingest | https-pradyuprasadcom-writings-how-to-ask-for-help
+
+自动入库 (wiki-life-inbox-scan + life-screener)
+- **标题**: https://pradyuprasad.com/writings/how-to-ask-for-help/
+- **评分**: v×c=7×7=49 | stars=4
+- **来源**: https://pradyuprasad.com/writings/how-to-ask-for-help/
+- **理由**: 命中论证（核心原则+启发式框架）、边界（区分三种可信度来源）、实践（具体操作建议）三维；未触发红线，基于逻辑推理与个人经验，非鸡汤/营销
