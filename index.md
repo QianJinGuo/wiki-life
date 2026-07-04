@@ -6,7 +6,7 @@
 
 ## Stats
 
-- **Total pages**: 46
+- **Total pages**: 47
 - **Entities**: 12 | **Concepts**: 4 | **Comparisons**: 5 | **Cases**: 6 | **Queries**: 7 | **Sources**: 10 | **Reviews**: 2
 - **Last updated**: 2026-06-10
 
@@ -149,4 +149,5 @@
 - `drafts/` — 对外输出草稿
 
 - [[entities/easy-is-overrated|Easy is Overrated]] — # Easy is Overrated  **Source**: [https://calnewport.com/easy-is-overrated/](https://calnewport.com/easy-is-overrated/)...
-- [[entities/https-pradyuprasadcom-writings-how-to-ask-for-help|https://pradyuprasad.com/writings/how-to-ask-for-help/]] — Markdown Content: 30 June 2026  No matter what you’re doing, from building a civilization on Mars to getting a summer in...
+- [[entities/https-pradyuprasadcom-writings-how-to-ask-for-help|How to Ask for Help — 求助的艺术]] — 求助是技能不是天赋，四个启发式框架+三种可信度来源
+- [[raw/articles/https-pradyuprasadcom-writings-how-to-ask-for-help|How to Ask for Help]] — 求助是技能不是天赋，四个启发式框架+三种可信度来源
