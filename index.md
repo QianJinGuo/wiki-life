@@ -6,9 +6,9 @@
 
 ## Stats
 
-- **Total pages**: 47
-- **Entities**: 12 | **Concepts**: 4 | **Comparisons**: 5 | **Cases**: 6 | **Queries**: 7 | **Sources**: 10 | **Reviews**: 2
-- **Last updated**: 2026-06-10
+- **Total pages**: 48
+- **Entities**: 12 | **Concepts**: 4 | **Comparisons**: 5 | **Cases**: 6 | **Queries**: 7 | **Sources**: 11 | **Reviews**: 2
+|- **Last updated**: 2026-07-09
 
 ---
 
@@ -29,7 +29,7 @@
 - 求职工具箱 — 简历、面试、谈判清单
 - 副业探索 — 从0到1的收入多元化
 
-- [[entities/https-addyosmanicom-blog-career-advice-age-of-agents|https://addyosmani.com/blog/career-advice-age-of-agents/]] — Markdown Content: _AI gets good at anything with an answer key. Your career is everything that doesn’t have one._  * * *...
+- [[entities/https-addyosmanicom-blog-career-advice-age-of-agents|Agent 时代职业建议]] — Addy Osmani 的稀缺性职业框架：当 AI 解决 70% 工作，选择问题 > 解决问题
 ### [[entities/mental-wellness|心理健康与心态]]
 情绪管理、焦虑应对、心智韧性。
 
@@ -152,3 +152,4 @@
 - [[entities/easy-is-overrated|Easy is Overrated]] — # Easy is Overrated  **Source**: [https://calnewport.com/easy-is-overrated/](https://calnewport.com/easy-is-overrated/)...
 - [[entities/https-pradyuprasadcom-writings-how-to-ask-for-help|How to Ask for Help — 求助的艺术]] — 求助是技能不是天赋，四个启发式框架+三种可信度来源
 - [[raw/articles/https-pradyuprasadcom-writings-how-to-ask-for-help|How to Ask for Help]] — 求助是技能不是天赋，四个启发式框架+三种可信度来源
+- [[raw/articles/https-addyosmanicom-blog-career-advice-age-of-agents|Career Advice in the Age of AI Agents]] — Addy Osmani 谈 agent 时代职业建议

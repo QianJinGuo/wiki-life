@@ -1,5 +1,5 @@
 ---
-title: "https://addyosmani.com/blog/career-advice-age-of-agents/"
+title: "Career Advice in the Age of AI Agents"
 created: 2026-07-09
 updated: 2026-07-09
 type: source
@@ -10,7 +10,7 @@ sha256: "fdc3d48a592cbee2"
 provenance_state: extracted
 ---
 
-# https://addyosmani.com/blog/career-advice-age-of-agents/
+# Career Advice in the Age of AI Agents
 
 **来源**: https://addyosmani.com/blog/career-advice-age-of-agents/
 **归档日期**: 2026-07-09
