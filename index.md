@@ -29,6 +29,7 @@
 - 求职工具箱 — 简历、面试、谈判清单
 - 副业探索 — 从0到1的收入多元化
 
+- [[entities/https-addyosmanicom-blog-career-advice-age-of-agents|https://addyosmani.com/blog/career-advice-age-of-agents/]] — Markdown Content: _AI gets good at anything with an answer key. Your career is everything that doesn’t have one._  * * *...
 ### [[entities/mental-wellness|心理健康与心态]]
 情绪管理、焦虑应对、心智韧性。
 
