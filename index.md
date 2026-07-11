@@ -52,6 +52,7 @@
 - 二阶思维 — 考虑后果的后果
 
 - [[entities/https-fsblog-membership|https://fs.blog/membership/]] — Markdown Content: Invest in yourself.  ## Join the FS Learning Community  _“Shane’s community is my first stop each morn...
+- [[entities/https-fsblog-membership-2|https://fs.blog/membership/]] — Markdown Content: Invest in yourself.  ## Join the FS Learning Community  _“Shane’s community is my first stop each morn...
 ---
 
 ## Navigation
