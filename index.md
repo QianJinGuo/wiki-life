@@ -30,6 +30,7 @@
 - 副业探索 — 从0到1的收入多元化
 
 - [[entities/https-addyosmanicom-blog-career-advice-age-of-agents|Agent 时代职业建议]] — Addy Osmani 的稀缺性职业框架：当 AI 解决 70% 工作，选择问题 > 解决问题
+- [[entities/https-fsblog-sponsor|https://fs.blog/sponsor/]] — Markdown Content: We have two compelling sponsorship opportunities.  ## Brain Food Newsletter  The Brain Food Newsletter...
 ### [[entities/mental-wellness|心理健康与心态]]
 情绪管理、焦虑应对、心智韧性。
 
