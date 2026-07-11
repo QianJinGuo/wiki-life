@@ -114,3 +114,12 @@ Initialized life improvement wiki with structure:
 - **评分**: v×c=7×7=49 | stars=4
 - **来源**: https://fs.blog/sponsor/
 - **理由**: manual: 3 life 关键词, 有框架倾向
+
+
+## [2026-07-11] ingest | https-fsblog-membership-3
+
+自动入库 (wiki-life-inbox-scan + life-screener)
+- **标题**: https://fs.blog/membership/
+- **评分**: v×c=7×7=49 | stars=4
+- **来源**: https://fs.blog/membership/
+- **理由**: manual: 3 life 关键词, 有框架倾向
