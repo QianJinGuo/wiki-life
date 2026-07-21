@@ -154,3 +154,5 @@
 - [[entities/https-pradyuprasadcom-writings-how-to-ask-for-help|How to Ask for Help — 求助的艺术]] — 求助是技能不是天赋，四个启发式框架+三种可信度来源
 - [[raw/articles/https-pradyuprasadcom-writings-how-to-ask-for-help|How to Ask for Help]] — 求助是技能不是天赋，四个启发式框架+三种可信度来源
 - [[raw/articles/https-addyosmanicom-blog-career-advice-age-of-agents|Career Advice in the Age of AI Agents]] — Addy Osmani 谈 agent 时代职业建议
+
+- [[entities/派早报oppo-宣布调整旗下子品牌的全球产品策略等|派早报：OPPO 宣布调整旗下子品牌的全球产品策略等]] — # 派早报：OPPO 宣布调整旗下子品牌的全球产品策略等  **Source**: [https://sspai.com/post/112414](https://sspai.com/post/112414) **Published**:...
