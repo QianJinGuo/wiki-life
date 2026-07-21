@@ -44,6 +44,7 @@
 - 爱的五种语言 — 理解彼此的需求表达方式
 - 冲突解决框架 — 从对抗到合作
 
+- [[entities/小米-nas-拆解与初步上手它会是你的第一台-nas-吗|小米 NAS 拆解与初步上手：它会是你的第一台 NAS 吗？]] — # 小米 NAS 拆解与初步上手：它会是你的第一台 NAS 吗？  **Source**: [https://sspai.com/post/112398](https://sspai.com/post/112398) **Publishe...
 ### [[entities/cognitive-enhancement|认知提升]]
 学习方法、决策思维、元认知。
 

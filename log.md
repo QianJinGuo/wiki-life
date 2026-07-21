@@ -87,3 +87,12 @@ Initialized life improvement wiki with structure:
 - **评分**: v×c=8×7=56 | stars=4
 - **来源**: https://addyosmani.com/blog/career-advice-age-of-agents/
 - **理由**: 命中论证(稀缺性框架)、边界(区分AI能力边界)、实践(个人经历佐证)、批判性(质疑传统职业路径)四维；无红线触发，属于有效方法类内容
+
+
+## [2026-07-21] ingest | 小米-nas-拆解与初步上手它会是你的第一台-nas-吗
+
+自动入库 (wiki-life-inbox-scan + life-screener)
+- **标题**: 小米 NAS 拆解与初步上手：它会是你的第一台 NAS 吗？
+- **评分**: v×c=7×7=49 | stars=4
+- **来源**: https://sspai.com/post/112398
+- **理由**: manual: 3 life 关键词, 有框架倾向
