@@ -44,7 +44,6 @@
 - 爱的五种语言 — 理解彼此的需求表达方式
 - 冲突解决框架 — 从对抗到合作
 
-- [[entities/小米-nas-拆解与初步上手它会是你的第一台-nas-吗|小米 NAS 拆解与初步上手：它会是你的第一台 NAS 吗？]] — # 小米 NAS 拆解与初步上手：它会是你的第一台 NAS 吗？  **Source**: [https://sspai.com/post/112398](https://sspai.com/post/112398) **Publishe...
 ### [[entities/cognitive-enhancement|认知提升]]
 学习方法、决策思维、元认知。
 
@@ -154,8 +153,3 @@
 - [[entities/https-pradyuprasadcom-writings-how-to-ask-for-help|How to Ask for Help — 求助的艺术]] — 求助是技能不是天赋，四个启发式框架+三种可信度来源
 - [[raw/articles/https-pradyuprasadcom-writings-how-to-ask-for-help|How to Ask for Help]] — 求助是技能不是天赋，四个启发式框架+三种可信度来源
 - [[raw/articles/https-addyosmanicom-blog-career-advice-age-of-agents|Career Advice in the Age of AI Agents]] — Addy Osmani 谈 agent 时代职业建议
-
-- [[entities/派早报oppo-宣布调整旗下子品牌的全球产品策略等|派早报：OPPO 宣布调整旗下子品牌的全球产品策略等]] — # 派早报：OPPO 宣布调整旗下子品牌的全球产品策略等  **Source**: [https://sspai.com/post/112414](https://sspai.com/post/112414) **Published**:...
-- [[entities/派早报锂电池消费税分阶段恢复征收|派早报：锂电池消费税分阶段恢复征收]] — # 派早报：锂电池消费税分阶段恢复征收  **Source**: [https://sspai.com/post/112498](https://sspai.com/post/112498) **Published**: 2026-07-...
-- [[entities/派评-近期值得关注的-app|派评 | 近期值得关注的 App]] — # 派评 | 近期值得关注的 App  **Source**: [https://sspai.com/post/112543](https://sspai.com/post/112543) **Published**: 2026-07-2...
-- [[entities/角落新声-把杂乱桌面收拾得像样只需要一张桌垫|角落新声 | 把杂乱桌面收拾得像样，只需要一张桌垫]] — # 角落新声 | 把杂乱桌面收拾得像样，只需要一张桌垫  **Source**: [https://sspai.com/post/112453](https://sspai.com/post/112453) **Published**:...
