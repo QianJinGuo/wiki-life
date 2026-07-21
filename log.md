@@ -123,3 +123,12 @@ Initialized life improvement wiki with structure:
 - **评分**: v×c=7×7=49 | stars=4
 - **来源**: https://sspai.com/post/112543
 - **理由**: manual: 4 life 关键词, 有框架倾向
+
+
+## [2026-07-21] ingest | 角落新声-把杂乱桌面收拾得像样只需要一张桌垫
+
+自动入库 (wiki-life-inbox-scan + life-screener)
+- **标题**: 角落新声 | 把杂乱桌面收拾得像样，只需要一张桌垫
+- **评分**: v×c=7×7=49 | stars=4
+- **来源**: https://sspai.com/post/112453
+- **理由**: manual: 3 life 关键词, 有框架倾向
