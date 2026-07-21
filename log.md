@@ -105,3 +105,12 @@ Initialized life improvement wiki with structure:
 - **评分**: v×c=7×7=49 | stars=4
 - **来源**: https://sspai.com/post/112414
 - **理由**: manual: 3 life 关键词, 有框架倾向
+
+
+## [2026-07-21] ingest | 派早报锂电池消费税分阶段恢复征收
+
+自动入库 (wiki-life-inbox-scan + life-screener)
+- **标题**: 派早报：锂电池消费税分阶段恢复征收
+- **评分**: v×c=7×7=49 | stars=4
+- **来源**: https://sspai.com/post/112498
+- **理由**: manual: 3 life 关键词, 有框架倾向
