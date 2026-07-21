@@ -114,3 +114,12 @@ Initialized life improvement wiki with structure:
 - **评分**: v×c=7×7=49 | stars=4
 - **来源**: https://sspai.com/post/112498
 - **理由**: manual: 3 life 关键词, 有框架倾向
+
+
+## [2026-07-21] ingest | 派评-近期值得关注的-app
+
+自动入库 (wiki-life-inbox-scan + life-screener)
+- **标题**: 派评 | 近期值得关注的 App
+- **评分**: v×c=7×7=49 | stars=4
+- **来源**: https://sspai.com/post/112543
+- **理由**: manual: 4 life 关键词, 有框架倾向
