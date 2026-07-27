@@ -87,3 +87,12 @@ Initialized life improvement wiki with structure:
 - **评分**: v×c=8×7=56 | stars=4
 - **来源**: https://addyosmani.com/blog/career-advice-age-of-agents/
 - **理由**: 命中论证(稀缺性框架)、边界(区分AI能力边界)、实践(个人经历佐证)、批判性(质疑传统职业路径)四维；无红线触发，属于有效方法类内容
+
+
+## [2026-07-27] ingest | https-fsblog-great-talks-common-denominator-success-albert-g
+
+自动入库 (wiki-life-inbox-scan + life-screener)
+- **标题**: https://fs.blog/great-talks/common-denominator-success-albert-gray/
+- **评分**: v×c=8×6=48 | stars=4
+- **来源**: https://fs.blog/great-talks/common-denominator-success-albert-gray/
+- **理由**: 论证、框架、边界、实践四维满足；无红线

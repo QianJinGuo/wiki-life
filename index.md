@@ -6,9 +6,9 @@
 
 ## Stats
 
-- **Total pages**: 48
-- **Entities**: 12 | **Concepts**: 4 | **Comparisons**: 5 | **Cases**: 6 | **Queries**: 7 | **Sources**: 11 | **Reviews**: 2
-|- **Last updated**: 2026-07-09
+- **Total pages**: 49
+- **Entities**: 13 | **Concepts**: 4 | **Comparisons**: 5 | **Cases**: 6 | **Queries**: 7 | **Sources**: 12 | **Reviews**: 2
+|- **Last updated**: 2026-07-27
 
 ---
 
@@ -153,3 +153,6 @@
 - [[entities/https-pradyuprasadcom-writings-how-to-ask-for-help|How to Ask for Help — 求助的艺术]] — 求助是技能不是天赋，四个启发式框架+三种可信度来源
 - [[raw/articles/https-pradyuprasadcom-writings-how-to-ask-for-help|How to Ask for Help]] — 求助是技能不是天赋，四个启发式框架+三种可信度来源
 - [[raw/articles/https-addyosmanicom-blog-career-advice-age-of-agents|Career Advice in the Age of AI Agents]] — Addy Osmani 谈 agent 时代职业建议
+
+- [[entities/https-fsblog-great-talks-common-denominator-success-albert-g|The Common Denominator of Success]] — Albert E.N. Gray 1940 年经典演讲：成功的共同分母是养成做失败者不愿做的事的习惯
+- [[raw/articles/https-fsblog-great-talks-common-denominator-success-albert-g|The Common Denominator of Success]]
