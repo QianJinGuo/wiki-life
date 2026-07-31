@@ -6,9 +6,9 @@
 
 ## Stats
 
-- **Total pages**: 49
-- **Entities**: 13 | **Concepts**: 6 | **Comparisons**: 5 | **Cases**: 6 | **Queries**: 7 | **Sources**: 12 | **Reviews**: 2
-|- **Last updated**: 2026-07-28
+- **Total pages**: 51
+- **Entities**: 14 | **Concepts**: 6 | **Comparisons**: 5 | **Cases**: 6 | **Queries**: 7 | **Sources**: 13 | **Reviews**: 2
+- **Last updated**: 2026-07-31
 
 ---
 
@@ -158,3 +158,6 @@
 
 - [[entities/https-fsblog-great-talks-common-denominator-success-albert-g|The Common Denominator of Success]] — Albert E.N. Gray 1940 年经典演讲：成功的共同分母是养成做失败者不愿做的事的习惯
 - [[raw/articles/https-fsblog-great-talks-common-denominator-success-albert-g|The Common Denominator of Success]]
+
+- [[entities/the-work-required-to-have-an-opinion|The Work Required to Have an Opinion — 观点的功课]] — 观点的功课：能比对手更好地反驳自己，才算挣得一个观点
+- [[raw/articles/the-work-required-to-have-an-opinion|The Work Required to Have an Opinion — 观点的功课]]

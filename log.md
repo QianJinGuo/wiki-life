@@ -104,3 +104,11 @@ Initialized life improvement wiki with structure:
 - **标题1**: 比较陷阱与焦虑：当同龄人领先时的实操应对
 - **标题2**: 焦虑状态下的技术学习法：以 Agent/Harness 为例
 - **理由**: 用户表达比较焦虑 + 学习焦虑，创建两篇实操框架页：五步焦虑应对框架 + 锚点学习法
+
+## [2026-07-31] ingest | the-work-required-to-have-an-opinion
+
+自动入库 (wiki-life-inbox-scan + life-screener; 脚本 Jina fetch 失败后手动补入)
+- **标题**: The Work Required to Have an Opinion — 观点的功课
+- **评分**: v×c=8×7=56 | stars=4
+- **来源**: https://fs.blog/the-work-required-to-have-an-opinion/
+- **理由**: 论证(Darwin/Maimonides 案例)、框架(4 要件+终极测试)、边界(明确代价与适用场景)、实践(3 动作)四维满足；认知提升领域
