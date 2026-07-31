@@ -7,8 +7,8 @@
 ## Stats
 
 - **Total pages**: 49
-- **Entities**: 13 | **Concepts**: 4 | **Comparisons**: 5 | **Cases**: 6 | **Queries**: 7 | **Sources**: 12 | **Reviews**: 2
-|- **Last updated**: 2026-07-27
+- **Entities**: 13 | **Concepts**: 6 | **Comparisons**: 5 | **Cases**: 6 | **Queries**: 7 | **Sources**: 12 | **Reviews**: 2
+|- **Last updated**: 2026-07-28
 
 ---
 
@@ -36,6 +36,8 @@
 - 认知扭曲 — 识别思维陷阱
 - 情绪调节 — 从反应到回应
 - 正念 — 当下的注意力训练
+- [[concepts/comparison-trap-anxiety|比较陷阱与焦虑]] — 同龄人领先时的实操应对
+- [[concepts/agent-learning-under-anxiety|焦虑下的技术学习法]] — 锚点学习法 + Harness 层记忆
 
 ### [[entities/relationship-maintenance|亲密关系维护]]
 夫妻沟通、冲突解决、长期关系经营。

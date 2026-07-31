@@ -96,3 +96,11 @@ Initialized life improvement wiki with structure:
 - **评分**: v×c=8×6=48 | stars=4
 - **来源**: https://fs.blog/great-talks/common-denominator-success-albert-gray/
 - **理由**: 论证、框架、边界、实践四维满足；无红线
+
+
+## [2026-07-28] create | comparison-trap-anxiety + agent-learning-under-anxiety
+
+手动创建（用户触发）
+- **标题1**: 比较陷阱与焦虑：当同龄人领先时的实操应对
+- **标题2**: 焦虑状态下的技术学习法：以 Agent/Harness 为例
+- **理由**: 用户表达比较焦虑 + 学习焦虑，创建两篇实操框架页：五步焦虑应对框架 + 锚点学习法
