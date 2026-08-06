@@ -112,3 +112,12 @@ Initialized life improvement wiki with structure:
 - **评分**: v×c=8×7=56 | stars=4
 - **来源**: https://fs.blog/the-work-required-to-have-an-opinion/
 - **理由**: 论证(Darwin/Maimonides 案例)、框架(4 要件+终极测试)、边界(明确代价与适用场景)、实践(3 动作)四维满足；认知提升领域
+
+
+## [2026-08-06] ingest | https-milidev-writing-canva-is-one-percent-of-the-way-there
+
+自动入库 (wiki-life-inbox-scan + life-screener)
+- **标题**: https://mili.dev/writing/canva-is-one-percent-of-the-way-there/
+- **评分**: v×c=7×7=49 | stars=4
+- **来源**: https://mili.dev/writing/canva-is-one-percent-of-the-way-there/
+- **理由**: 命中实践与论证框架，以一线经历推演组织效率问题，有具体案例和引用，非鸡汤营销，未触发红线。
