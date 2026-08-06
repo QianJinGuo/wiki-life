@@ -7,7 +7,7 @@
 ## Stats
 
 - **Total pages**: 53
-- **Entities**: 15 | **Concepts**: 6 | **Comparisons**: 5 | **Cases**: 6 | **Queries**: 7 | **Sources**: 13 | **Reviews**: 2
+- **Entities**: 15 | **Concepts**: 6 | **Comparisons**: 5 | **Cases**: 6 | **Queries**: 7 | **Sources**: 14 | **Reviews**: 2
 - **Last updated**: 2026-08-06
 
 ---
@@ -162,4 +162,5 @@
 - [[entities/the-work-required-to-have-an-opinion|The Work Required to Have an Opinion — 观点的功课]] — 观点的功课：能比对手更好地反驳自己，才算挣得一个观点
 - [[raw/articles/the-work-required-to-have-an-opinion|The Work Required to Have an Opinion — 观点的功课]]
 
-- [[entities/https-milidev-writing-canva-is-one-percent-of-the-way-there|https://mili.dev/writing/canva-is-one-percent-of-the-way-there/]] — Markdown Content: **I spent three years inside the most ambitious company I’ve ever seen, and the way it works is a prev...
+- [[entities/https-milidev-writing-canva-is-one-percent-of-the-way-there|Canva is one percent of the way there — 判断力抵达工作的速度]] — AI 时代瓶颈从建造转向“好判断抵达工作的速度”；Canva founder-mode harness 架构复盘
+- [[raw/articles/https-milidev-writing-canva-is-one-percent-of-the-way-there|Canva is one percent of the way there — 判断力抵达工作的速度]]
